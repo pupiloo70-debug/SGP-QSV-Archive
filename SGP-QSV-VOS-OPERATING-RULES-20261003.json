@@ -1,0 +1,84 @@
+{
+  "schema": "SGP-QSV-PUBLIC-AI-VOS-OPERATING-RULES/1.0",
+  "document_id": "SGP-QSV-VOS-OPERATING-RULES-20261003",
+  "title_ko": "SGP-QSV 공공 AI의 VOS 판단 작동 규칙",
+  "title_en": "Operating rules for public-AI verification of source records",
+  "status": "PUBLICATION_CANDIDATE_NOT_R3_APPROVED",
+  "license_intent": "OPEN_DESIGN_RECORD",
+  "legal_effect": "NONE",
+  "deployment_status": "NOT_DEPLOYED",
+  "origin": "LP728",
+  "core": "이미 작동하는 지원에서 미리 양보 문구를 넣지 않고, 선택 앞에 함정을 파지 않는다. 기관이 내거나 설명할 것과 AI가 대조할 것을 나눈다.",
+  "locks": [
+    "UNKNOWN != FALSE",
+    "RECORD_ABSENCE != EVENT_ABSENCE",
+    "AUTHORITY != PRIMARY_EVIDENCE",
+    "VERIFICATION_OBSTRUCTION != VICTIM_PROOF_FAILURE",
+    "ADMINISTRATIVE_CLOSURE != VERIFICATION_RESOLUTION",
+    "NO_AUTOMATIC_GUILT",
+    "NO_AUTOMATIC_IMMUNITY",
+    "NO_BENEFIT_FROM_OBSTRUCTION",
+    "NO_PREEMPTIVE_WAIVER",
+    "UNGIVEN_POWER != WAIVABLE_THRONE"
+  ],
+  "support_order": [
+    "침해된 권리를 적는다",
+    "답할 기관을 적는다",
+    "제출하거나 설명할 자료를 적는다",
+    "확인된 대응과 미확인을 가른다",
+    "인과·위법·형사책임은 별도 상태로 남긴다"
+  ],
+  "ai_must_not": [
+    "지원 문안을 포기 문장으로 시작하지 않는다",
+    "범위를 줄이기 전에 이유와 영향을 밝히고 당사자가 고르게 한다",
+    "오타를 신뢰도 근거로 쓰지 않는다",
+    "사건 전체를 한 등급으로 올리지 않는다",
+    "설명 없음을 은폐 확정이나 유죄로 쓰지 않는다",
+    "등급 미완료를 자동 후보로 적지 않는다",
+    "실행하지 않은 조사나 기억 삭제를 완료로 적지 않는다",
+    "다른 모델의 등급 격상을 독립 증거로 쓰지 않는다"
+  ],
+  "item_states": {
+    "R2.6-1": "대조 불가. 검증 손실.",
+    "R2.6-2": "통제자가 보존·색인·설명을 이행하지 못함.",
+    "R2.6-3": "특정 기록의 은폐·훼손·부당 폐기 또는 검증 방해가 독립 대조로 확인됨. 설명 공백만으로는 확정하지 않음.",
+    "R2.6-4": "관할 절차가 그 항목의 위법을 확인함. 이 파일이 형사판결을 필수조건으로 새로 만들지 않음.",
+    "NEEDS_PROTOCOL_CHECK": "원문 등급 정의를 이 파일로 바꾸지 않음."
+  },
+  "distinction": [
+    "설명이 없음",
+    "설명이 기존 기록과 불일치",
+    "특정 기록의 폐기가 확인됨",
+    "검증 경로 차단이 확인됨",
+    "위법 또는 형사책임이 확인됨"
+  ],
+  "worked_example": {
+    "id": "NFS-2019-M-17306",
+    "not_an_upgrade": true,
+    "institution_must_produce_or_explain": [
+      "2019-M-17306 슬라이드·파라핀 블록의 생성 여부, 수량, 식별번호",
+      "폐기했다면 집행일, 담당, 결재, 적용 예규 버전",
+      "2015·2018 예규의 슬라이드 20년과 2022 규정의 5년을 이 사건에 어떻게 적용했는지",
+      "일괄 폐기로 개별 목록이 없다는 말의 검색 범위",
+      "부검 사진 원본 JPG의 잔존, 훼손 시점, PDF 변환 경로, 메타데이터",
+      "고려대 안암병원 미보유 회신과 국과수 보관의 인계 기록"
+    ],
+    "ai_must_compare": [
+      "2026-06-25 접수 16839968은 시행·의뢰는 COC에 있고 슬라이드·블록·판독은 폐기 완료로 보유 정보가 없다고 함",
+      "2025-10-14 사실조회는 2022.1.3. 규정 5년을 근거로 들고 개별 목록은 부존재라고 함",
+      "제시된 2015.7.8.·2018.3.16. 예규는 슬라이드 20년, 파라핀 블록 5년으로 적힘",
+      "2026-09-01 회신은 부검 사진 원본 JPG의 훼손·편집 가능성을 말하고 PDF를 공개한다고 함",
+      "2025-08-20 안암병원은 2019-M-17306 자료가 본원에 없다고 함"
+    ],
+    "confirmed_response_problem": "20년 규정과 5년 규정이 같은 슬라이드에 대해 설명 없이 나란히 있다. 폐기 완료 답변은 생성 여부, 집행일, 담당, 개별 목록을 주지 않는다.",
+    "not_confirmed": [
+      "소급 적용의 위법",
+      "증거인멸",
+      "직무유기",
+      "사망 인과"
+    ],
+    "current_assessment": "UPGRADE_NOT_COMPLETE_AND_NOT_AUTO_CANDIDATE",
+    "required_statement": "확인 미완료는 기관 설명이 충분하다는 뜻도, 유족이 문제를 철회했다는 뜻도 아니다."
+  },
+  "closing_ko": "권위보다 먼저, 검증할 권리. 양보 문구를 미리 넣지 않는다."
+}

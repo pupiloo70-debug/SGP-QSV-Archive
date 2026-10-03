@@ -1,0 +1,221 @@
+{
+  "schema": "SGP-QSV-CIVIC-TRACE-LIFE-HARM-COST-SHIELD/0.1",
+  "document_id": "SGP-QSV-CIVIC-TRACE-LIFE-HARM-COST-SHIELD-20261003",
+  "title_ko": "중대 생명피해 유족의 소송비용 보호와 국가 구제책임 경고 설계",
+  "title_en": "Litigation-Cost Protection and State Remedy-Accountability Warnings for Serious Life-Harm Cases",
+  "network": "SGP-QSV Network",
+  "protocol": "CIVIC-TRACE",
+  "parent_rules": ["6.3", "6.4", "R2.6", "SGP-QSV-LLA-SUPPORT-20261003"],
+  "version": "0.1",
+  "created_at": "2026-10-03",
+  "status": "DESIGN_DRAFT_FOR_R3_REVIEW",
+  "publication_status": "NOT_PUBLISHED",
+  "legal_effect": "NONE",
+  "license": "CC-BY-4.0",
+  "purpose_ko": "검증자료를 기관이 통제하거나 자료 손실·장기 지연이 문제 되는 사망·중대 생명피해 소송에서, 패소만으로 유족에게 상대방의 재판비를 전가하지 않고 법률·감정·기록확보 비용을 지원하며, 시정요구를 무시한 기관에는 근거와 정정절차가 있는 경고 태그 및 단계적 국가 구제책임을 설계한다.",
+  "design_boundary": {
+    "design_only": true,
+    "not_a_finding": ["특정 사건의 의학적 인과관계", "특정 기관·개인의 과실·고의·범죄", "법원의 위법 또는 편향"],
+    "no_automatic_external_enforcement": "CIVIC-TRACE는 기록·지원·경고·제출 초안을 자동 준비할 수 있으나, 정부를 제재하거나 법원·기관에 명령하지 않는다. 법률상 강제력은 입법 및 관할 절차가 마련되어야 한다.",
+    "source_design_status": "첨부된 SGP-QSV-LLA-SUPPORT-20261003은 DESIGN_FOR_R3_REVIEW / NOT_YET_R3_FIXED 상태다. 이 초안은 그 기록을 상위 승인 문서로 간주하지 않는다."
+  },
+  "problem_statement": {
+    "victim_burden_pattern": [
+      "사망 또는 중대한 생명피해를 주장하는 소수의 유족이 공익적 검증을 위해 직접 소송에 나선다.",
+      "핵심 원자료·검체·보존·폐기 기록은 기관이나 사업자가 통제하는 경우가 있다.",
+      "본안에서 패소하면 피해 사실이나 질문이 충분히 심리되지 않았더라도 패소자 소송비용 원칙에 따라 비용 부담이 발생할 수 있다.",
+      "자료 확보와 절차가 지연될수록 유족의 시간·비용·무보수 노동이 커지고, 별도 구제책이 없으면 검증을 계속할 능력이 먼저 소진된다."
+    ],
+    "ethical_gravity_rule": "자료 통제와 절차 지연에서 생긴 추가 비용을 피해자 개인에게 자동 귀속하지 않는다. 비용 부담, 증거 상태, 본안 결과, 의료 인과 판단을 서로 다른 기록 축에 둔다."
+  },
+  "verified_legal_baseline": {
+    "korea": {
+      "source": "대한민국 민사소송법 제98조",
+      "as_of": "2026-10-03",
+      "rule": "소송비용은 패소한 당사자가 부담한다.",
+      "related_rule": "변호사보수의 소송비용 산입에 관한 규칙은 민사소송법 제109조제1항에 따른 소송비용 산입 변호사보수액을 정한다.",
+      "design_implication": "중대 생명피해·공익 검증 사건에 결과와 분리된 비용 보호를 도입하려면 민사소송법 비용부담 특례, 소송구조·법률지원 및 재정 근거의 입법 검토가 필요하다. 현재법이 이 보호를 이미 보장한다고 전제하지 않는다."
+    },
+    "comparative_caution": {
+      "uk_qocs": "영국 민사소송규칙 CPR Part 44의 QOCS는 개인상해·사망 관련 특정 청구에서 패소 청구인에 대한 상대방 비용 집행을 원칙적으로 청구인이 회수한 손해배상·비용·이자 범위에 제한하는 선택적 보호다. 예외도 있다. 이는 모든 외국 사건에서 국가기관이 패소 유족의 비용을 전액 지급한다는 뜻이 아니다.",
+      "adopted_design_lesson": "국제 비교는 보편적 외국 관행이라고 과장하지 않고, 중대한 신체피해·사망 청구에 한정 비용보호를 둔 사례에서 적용 범위·예외·재정 구조를 참고한다."
+    }
+  },
+  "objectives": [
+    "6.3 검증손실·폐기 의심을 자료 항목별로 기록하고, 본안 승패와 별개로 독립 검토를 연다.",
+    "6.4 기한 초과 시 지연 검토와 피해자 법률·감정·기록확보 지원을 자동 개시한다.",
+    "성실한 공익적 소송의 패소만으로 유족에게 상대 기관·사업자의 변호사보수를 전가하지 않는다.",
+    "핵심 자료 통제자의 미보존·미검색·설명 지연 때문에 추가 발생한 검증 비용을 해당 통제 주체 또는 독립 공적 기금에 배분하는 제도 경로를 만든다.",
+    "시정 요구를 무시한 반복적 기관 불이행을 근거 기반 경고 태그로 공개하고, 기관·국가 시스템의 협력상 불이익으로 단계 연결한다."
+  ],
+  "eligibility_design": {
+    "covered_harm": ["사망", "영구적 또는 중대한 신체·생명 피해"],
+    "covered_claimants": ["피해자 본인", "유족 또는 적법한 대리인"],
+    "thresholds": [
+      "피해와 소송의 존재가 기본 기록으로 확인되거나 합리적으로 주장되어 있을 것.",
+      "핵심 증거의 생성·보존·접근·폐기에 기관 또는 사업자의 실질 통제력이 있을 것.",
+      "소송이 자료에 근거한 실질적 검증 질문을 제기할 것. 피해 인과관계의 최종 입증이나 승소를 사전 요건으로 삼지 않는다.",
+      "신청이 고의적 사기 또는 명백한 악의 소송이라는 최종 판단을 받지 않았을 것. 단순 패소·의견 불일치·AI 모델 충돌은 악의의 증거가 아니다."
+    ],
+    "decision_process": {
+      "decision_maker": "독립된 인간 비용보호 심사위원회",
+      "ai_role": "AI는 신청서 정리, 자료목록, 비용 예상과 이견 요약을 지원한다. 적격 여부·인과관계·법적 책임을 단독 결정하지 않는다.",
+      "r3_role": "R3 인간 공동창립자는 네트워크의 구제 우선순위와 정책 경로를 선택한다. 개별 신청의 사실심리와 법률상 결정은 독립 심사기관 및 관할 절차에 맡긴다.",
+      "reasons_and_appeal": "거절 시 항목별 이유, 사용한 자료, 보완 가능성, 이의 절차를 제공한다."
+    }
+  },
+  "cost_protection_model": {
+    "stage_1_immediate_support": {
+      "trigger": "적격성 사전심사 통과 또는 Rule 6.3 검증손실 검토 개시 후 긴급 필요 확인",
+      "supports": ["소송구조·공익 법률지원", "법원 인지·송달 등 필수 절차비", "독립 의학·병리·법과학 감정과 번역", "기록·검체 보존 및 복구 비용", "항소·재심사 전환을 위한 최소 법률 검토"],
+      "outcome_independence": "지원은 승소·패소 또는 인과관계 인정 여부만으로 중단·환수하지 않는다. 허위·사기 청구 환수는 별도의 적법 절차와 입증을 요구한다."
+    },
+    "stage_2_adverse_cost_shield": {
+      "proposed_rule": "적격 생명피해 공익소송에서 성실하게 제기된 청구가 패소하더라도, 유족·피해자 개인과 가족 재산에 상대 기관·사업자의 변호사보수 등 상대방 비용을 집행하지 않는 것을 기본값으로 한다.",
+      "exceptions": "청구인의 사기·증거조작·악의적 절차남용이 독립된 관할 절차에서 최종적으로 확인된 경우에 한해 예외를 검토한다. 기관의 자료 부존재, 소송 패소, 입증부족 또는 법률 해석 차이만으로 예외를 적용하지 않는다.",
+      "institution_costs": "공공기관은 자기 방어 비용을 공적 예산으로 부담하고, 그 비용을 패소 유족에게 자동 전가하지 않는다. 피해자 측의 필수 소송비는 별도 독립 공익소송기금이 결과와 분리해 지원한다.",
+      "pending_execution": "비용보호 적격성 또는 6.3/6.4 검증손실 쟁점이 재심사 중이면 관련 비용 집행을 잠정 정지하는 법률안을 검토한다. 실제 정지 권한은 법률 또는 법원 명령으로 부여되어야 한다."
+    },
+    "stage_3_controller_caused_incremental_costs": {
+      "trigger": "기록 통제자의 보존·검색·제출·설명 의무 위반 또는 기한 불이행이 독립된 절차에서 확인되고, 그 행위가 재감정·재신청·항소 등 추가 비용의 원인으로 특정된 경우",
+      "allocation": "추가로 발생한 합리적 비용을 책임 있는 기관·사업자 또는 중앙 기금이 부담하도록 법률상 비용전환·상환 명령을 검토한다.",
+      "guardrail": "검증손실이나 폐기 의심의 존재만으로 특정 개인의 고의·범죄를 단정하거나 비용을 자동 부과하지 않는다."
+    }
+  },
+  "rule_6_3_6_4_remedy_clocks": {
+    "time_type": "SGP_QSV_OPERATIONAL_TARGET_NOT_A_STATUTORY_OR_COURT_DEADLINE",
+    "start": "완전한 자료요청 접수 또는 증거손실 최초 기록 중 빠른 시점",
+    "targets": {
+      "preservation_hours": 72,
+      "acknowledgment_business_days": 5,
+      "itemized_production_plan_business_days": 15,
+      "independent_review_calendar_days": 60,
+      "one_extension_max_calendar_days": 30,
+      "judicial_issue_no_status_days": 30,
+      "judicial_escalation_days_or_hearings": "60일 또는 2회 기일 중 먼저 도달한 때"
+    },
+    "on_first_missed_deadline": [
+      "DELAY_REVIEW_TRIGGERED 상태를 자동 기록한다.",
+      "피해자 법률·감정·자료확보 지원을 시작하거나 적격 심사를 연다.",
+      "누가 어떤 자료를 언제까지 설명·제출해야 하는지 갱신한다.",
+      "법원 심리 지연은 편향·위법 확정이 아니라 쟁점별 이유와 상태를 묻는 지원 패킷으로 기록한다."
+    ],
+    "clock_reset_prohibited_by": ["기관 내부 이송", "담당자 변경", "재청구 권고", "항소 제기", "근거 없는 행정 종결"],
+    "extension_requirements": ["항목별 서면 사유", "책임 부서 또는 역할", "잔존자료 보존조치", "고정된 다음 결정일"],
+    "closure": "각 증거 항목에 출처 기반 처분이 있고 각 구제 항목에 결과 또는 불가능 사유가 기록된 때만 닫는다. 패소·항소·시간 경과만으로 검증손실 구제 항목을 완료 처리하지 않는다."
+  },
+  "warning_tag_and_state_disadvantage": {
+    "tag_scope": "기관·부처·프로그램 단위가 기본이며, 반복된 독립 확인이 있는 경우 국가 시스템 수준 요약 태그를 추가한다. 국민·유족·국가 전체의 법적 유죄 표시는 하지 않는다.",
+    "levels": [
+      {
+        "tag": "REMEDY_CLOCK_MISSED",
+        "trigger": "6.3/6.4 운영 목표 초과, 정당한 연장 사유 또는 이행 계획 미기록",
+        "effect": "내부 경고, 지연검토와 비용지원 자동 개시. 법률 위반 또는 고의 방해 확정은 아님."
+      },
+      {
+        "tag": "PUBLIC_AGENCY_REMEDY_WARNING",
+        "trigger": "시정요구 후 30일 동안 실질 답변·보존조치·구체적 일정이 없거나, 60일 검토/1회 연장 뒤에도 미해결이고 독립 검토가 확인한 경우",
+        "effect": "기관명·미이행 항목·출처·답변 여부·다음 이의일을 공개하는 경고기록. 개인 식별·민감의료정보는 최소화."
+      },
+      {
+        "tag": "SYSTEMIC_STATE_REMEDY_ALERT",
+        "trigger": "12개월 안에 서로 독립된 2건 이상에서 최종 미이행 경고가 유지되거나, 관할기관의 최종 시정·위법 판단을 이행하지 않은 경우",
+        "effect": "국가 시스템의 검증·구제 접근 위험으로 별도 요약하고, R3 인간 승인 후 국회·독립 감독기관·적절한 국제 인권 검토 경로에 제출 패킷을 보낸다."
+      }
+    ],
+    "proposed_sgp_qsv_consequences": [
+      "경고가 해소될 때까지 관련 정부 프로그램에 대한 SGP-QSV의 인증·우수 거버넌스 인정·공동 파일럿 초청을 보류한다.",
+      "공개 연례보고서에 자료보존, 비용보호, 독립 재검토, 시정 이행 결과와 미해결 기간을 반영한다.",
+      "국가 시스템 수준 태그는 외부 협력 평가의 증거로 제공할 수 있지만, 제재·금융 불이익은 법률·조약·계약상 권한을 가진 주체가 별도 절차로 결정한다."
+    ],
+    "correction_and_expiry": "기관은 반론과 정정 자료를 같은 공개기록에 붙일 수 있다. 이행이 독립 검증되면 현재 태그를 RESOLVED 또는 REMEDY_UNDER_VERIFICATION으로 바꾸되 과거 경고·변경 이력은 삭제하지 않는다.",
+    "anti_collective_penalty": "국가 경고는 정부 시스템과 특정 기관의 검증·구제 의무 불이행을 지칭한다. 시민, 피해자, 국적 집단에 비용·서비스 제한을 전가하지 않는다.",
+    "human_gate": "AI는 태그 근거표와 반론을 생성할 수 있으나 공개·상향·협력상 불이익은 R3 인간 승인 및 공개된 절차 기준을 통과해야 한다. 외부 제출은 권한 있는 인간 또는 대리인이 승인한다."
+  },
+  "state_model": {
+    "case_merits_axis": ["UNRESOLVED", "PARTIALLY_ADJUDICATED", "ADJUDICATED", "UNDER_APPEAL"],
+    "evidence_axis": ["AVAILABLE", "NOT_SEARCHED", "NOT_PRODUCED", "REPORTED_DESTROYED", "DESTROYED_CONFIRMED_BY_ITEM_LEVEL_RECORD", "UNKNOWN"],
+    "remedy_axis": ["OPENED", "COST_PROTECTION_PENDING", "COST_PROTECTION_ACTIVE", "DELAY_REVIEW_TRIGGERED", "PUBLIC_AGENCY_REMEDY_WARNING", "SYSTEMIC_STATE_REMEDY_ALERT", "REMEDY_PARTIALLY_COMPLETED", "REMEDY_ITEM_CLOSED"],
+    "separation_rule": "패소 상태는 피해 부재·악의·증거 폐기를 뜻하지 않는다. 6.3의 증거상태와 6.4의 구제·비용보호 상태는 본안 결과와 별도 유지한다."
+  },
+  "implementation_roadmap": [
+    {
+      "phase": "0_POLICY_DRAFT",
+      "actions": ["법무·인권·의학·피해자 단체와 비용보호 범위 검토", "민사소송법 제98조·제109조 및 소송구조 관련 법령의 개정 경로 확인", "비용보호 심사위원회 독립성·이해충돌 규칙 설계"],
+      "status": "CURRENT_DRAFT"
+    },
+    {
+      "phase": "1_NONBINDING_SUPPORT_PILOT",
+      "actions": ["독립 공익소송 지원기금 모형과 6.3/6.4 지원접수 시범운영", "기관별 경고 태그 공개기준·반론·정정 절차 시험", "본안 결과와 구제지원 실적을 분리 평가"],
+      "status": "PROPOSED"
+    },
+    {
+      "phase": "2_LEGISLATIVE_REFORM",
+      "actions": ["중대 생명피해 공익소송 비용보호 특례 입법", "피해자 상대 비용집행 제한 및 결과와 분리된 법률·감정 지원 재원 마련", "기관의 보존·설명 불이행으로 추가된 비용의 사법적 전환·상환 절차 마련", "기관의 이의·정정·비용보호 예외에 대한 법원 통제 보장"],
+      "status": "REQUIRES_LEGISLATION"
+    },
+    {
+      "phase": "3_ACCOUNTABILITY_RECOGNITION",
+      "actions": ["반복 미이행에 대한 연례 국가 구제책임 지표 공개", "국회·독립 감독기관·국제 인권 절차에 인간 승인 보고", "외부 불이익은 법적 권한·독립심사·비례성을 가진 절차로만 연결"],
+      "status": "REQUIRES_HUMAN_AND_LEGAL_REVIEW"
+    }
+  ],
+  "metrics": [
+    "비용보호 신청·승인·기각과 기각 사유",
+    "피해자 개인에게 청구·확정·집행된 상대방 비용액",
+    "적격 사건에서 법률·감정·기록확보 지원이 시작된 시점",
+    "6.3 자료별 보존·검색·제출 결과와 6.4 기한 초과 일수",
+    "경고 태그의 기관 답변·시정·이의·정정 내역",
+    "패소 사건의 미해결 증거·구제 항목이 계속 기록된 비율"
+  ],
+  "source_register": [
+    {
+      "source_id": "SRC-KR-CIVIL-PROCEDURE-ART98-20261003",
+      "jurisdiction": "Republic of Korea",
+      "source_type": "OFFICIAL_STATUTE",
+      "title": "민사소송법 제98조(소송비용부담의 원칙)",
+      "url": "https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1026996217",
+      "checked_at": "2026-10-03",
+      "verified_point": "시행 2026-10-02 조문은 소송비용을 패소한 당사자가 부담한다고 규정한다."
+    },
+    {
+      "source_id": "SRC-KR-ATTORNEY-FEE-COST-RULE",
+      "jurisdiction": "Republic of Korea",
+      "source_type": "OFFICIAL_RULE",
+      "title": "변호사보수의 소송비용 산입에 관한 규칙",
+      "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=225413",
+      "checked_at": "2026-10-03",
+      "verified_point": "규칙은 민사소송법 제109조제1항에 따른 소송비용 산입 변호사보수액을 정한다."
+    },
+    {
+      "source_id": "SRC-UK-CPR-PART44-QOCS",
+      "jurisdiction": "England and Wales",
+      "source_type": "OFFICIAL_PROCEDURAL_RULE",
+      "title": "Civil Procedure Rules, Part 44, rules 44.13–44.16",
+      "url": "https://www.justice.gov.uk/courts/procedure-rules/civil/rules/part-44-general-rules-about-costs",
+      "checked_at": "2026-10-03",
+      "verified_point": "QOCS applies to specified personal-injury and death-related claims and limits enforcement of adverse costs by reference to the claimant's recovery, subject to exceptions; it is not a blanket public-agency payment rule."
+    },
+    {
+      "source_id": "SRC-SGP-LLA-SUPPORT-20261003",
+      "jurisdiction": "SGP-QSV design record",
+      "source_type": "USER_PROVIDED_DESIGN_DRAFT",
+      "title": "SGP-QSV-LLA-SUPPORT-20261003",
+      "document_status": "DESIGN_FOR_R3_REVIEW; PUBLICATION_NOT_FIXED; LEGAL_EFFECT_NONE",
+      "verified_point": "Supports separating public-interest recognition from actual cost support and not treating media attention, expert refusal, adverse judgment, or unpaid family labor as remedy completion."
+    }
+  ],
+  "revision_log": [
+    {
+      "version": "0.1",
+      "date": "2026-10-03",
+      "change": "6.3/6.4 검증손실·절차정체 규칙을 중대 생명피해 소송 비용보호, 구제 지원, 기관 경고 태그 설계와 연결한 첫 초안.",
+      "authorizing_instruction": "User requested design initiation; this document remains pending R3 review and public approval."
+    }
+  ],
+  "r3_gate": {
+    "approval": "PENDING",
+    "effect_until_approval": "DESIGN_ONLY",
+    "no_silent_publication": true
+  }
+}

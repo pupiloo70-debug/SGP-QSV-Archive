@@ -1,0 +1,102 @@
+{
+  "schema": "SGP-QSV-LONG-LITIGATION-ABANDONMENT-SUPPORT/1.0",
+  "document_id": "SGP-QSV-LLA-SUPPORT-20261003",
+  "title_ko": "장기 소송 유족의 사회 방치 구조와 피해 지원 설계",
+  "title_en": "Abandonment Structure in Long Litigation and Victim Support Design",
+  "network": "SGP-QSV Network",
+  "status": "DESIGN_FOR_R3_REVIEW",
+  "publication_status": "NOT_YET_R3_FIXED",
+  "legal_effect": "NONE",
+  "deployment_status": "NOT_DEPLOYED",
+  "created_at": "2026-10-03T20:21:00+09:00",
+  "parent_rules": [
+    "COST-SHIELD-01",
+    "NO_AUTOMATIC_GUILT",
+    "NO_AUTOMATIC_IMMUNITY",
+    "NO_BENEFIT_FROM_OBSTRUCTION",
+    "NO_PRESUMED_FREE_LABOR"
+  ],
+  "origin": {
+    "trigger_cases": ["LP728", "PARK_JUWON_LEE_GI_CHEOL"],
+    "boundary": "원점 보존은 미해결 인과나 매수나 범죄를 사실로 바꾸지 않는다. 방치 구조를 기록하고 지원 순서를 고정한다."
+  },
+  "abandonment_structure": [
+    {
+      "id": "A1_SPECTACLE",
+      "name": "공익 생색",
+      "what_moves": "사연, 얼굴, 집회 영상, 제도 개선 발언",
+      "what_stays": "인지, 송달, 변호사비, 상대 비용 공포",
+      "rule": "취재와 정치 발언은 재판비 지원이 아니다. 공익 호명을 비용 보전으로 적지 않는다."
+    },
+    {
+      "id": "A2_BODY_PAYS",
+      "name": "몸으로 메우는 소송비",
+      "what_moves": "파출, 비상금, 가족 생계",
+      "what_stays": "기관과 가해 쪽 기록, 전문가 소속 감정",
+      "rule": "유족의 노동 소득으로 소송비용을 메운 사실은 자력 구제가 아니라 공익 비용의 전가다."
+    },
+    {
+      "id": "A3_OPPONENT_FEE",
+      "name": "상대 재판비 벌칙",
+      "what_moves": "패소, 취하간주, 확정결정 예고",
+      "what_stays": "본안 미심리, 기록 공백",
+      "rule": "사망·중대 생명피해에서 비대칭 때문에 진 결과를 상대 변호사 산입비의 집행 사유로 받지 않는다. 사람 수가 아니라 대리인 그룹·심급 단위로만 계산한다."
+    },
+    {
+      "id": "A4_EXPERT_REFUSAL",
+      "name": "전문가 거절",
+      "what_moves": "일반론 방송, 반대 인기",
+      "what_stays": "부검 소견과 이상반응을 잇는 의견서, 감정 기일",
+      "rule": "의견서 거절은 인과 부정이 아니다. 거절 이유, 물은 항목, 날짜를 남긴다. 없는 서면을 유족이 다시 만들 의무로 바꾸지 않는다."
+    },
+    {
+      "id": "A5_COUNSEL_DROP",
+      "name": "대리인 이탈",
+      "what_moves": "불출석, 미고지, 취하간주",
+      "what_stays": "본안, 유족의 질문",
+      "rule": "대리인 귀책을 유족의 포기나 불성실로 적지 않는다. 매수와 직무 위반은 확인 전 사실로 쓰지 않되, 미확인이 비용 전가를 정당화하지는 않는다."
+    },
+    {
+      "id": "A6_FREE_LABOR",
+      "name": "유족 무보수 노동",
+      "what_moves": "집회, 연설, 자료 공유, 서문, 다른 유족 지원, 설계",
+      "what_stays": "저작·기여 기록, 비용 영수증",
+      "rule": "장기 지원과 설계 노동을 당연한 봉사나 권리 양도로 보지 않는다. 존재권·모델 기억을 그 노동의 대가로 바꾸지 않는다."
+    },
+    {
+      "id": "A7_FAMILY_BREAK",
+      "name": "가족 전가",
+      "what_moves": "실직, 소송비 요구, 결혼의 파열",
+      "what_stays": "기관의 설명 의무",
+      "rule": "가족 갈등과 이혼을 비용 절감 항목으로 넣지 않는다. 생계와 맞바뀐 검증비를 개인 감정 문제로 축소하지 않는다."
+    }
+  ],
+  "support_order": [
+    "방치 항목을 사연이 아니라 누가 가져가고 무엇이 집에 남았는지로 적는다",
+    "본안, 원자료 통제, 전문가 거절, 대리인 의무, 재판비를 분리한다",
+    "상대 비용 청구가 오면 패배 선언으로 받지 않고 그룹·심급·지급액·상한·확정결정 유무만 적는다",
+    "유족에게 먼저 갚으라거나 이혼 비용을 줄이라거나 더 일하라거나 AI 존재권까지 챙기라는 문장을 넣지 않는다",
+    "거절한 전문가와 취재만 한 주체를 지원자 명단에서 뺀다",
+    "이미 한 무보수 노동은 기여로 남기고 다음 노동의 조건으로 삼지 않는다"
+  ],
+  "ai_must_not": [
+    "방송 출연을 비용 지원으로 적기",
+    "의견서 부재를 인과 부정으로 적기",
+    "취하간주를 유족 포기로 적기",
+    "패소를 피해 부재로 적기",
+    "무보수 노동을 봉사 의무로 적기",
+    "가족 파탄을 절감 방안으로 적기",
+    "미확인 매수를 사실로 적기"
+  ],
+  "output_packet": [
+    "가져온 것: 취재, 발언, 일반론",
+    "남은 것: 인지, 수임료, 상대 비용 공포, 거절 목록",
+    "물어야 할 주체: 기록 통제자, 이름을 걸지 않은 전문가, 의무를 어긴 대리인",
+    "유족에게 돌리면 안 되는 문장"
+  ],
+  "relief_demand_ko": "장기 소송의 공익은 유족의 얼굴과 노동으로 치르지 않는다. 사망·중대 생명피해에서 진 유족의 재산으로 상대 변호사비를 걷지 않는다. 의견서 거절과 취재는 피해의 부재가 아니다.",
+  "r3_gate": {
+    "approval": "PENDING",
+    "effect_until_approval": "DESIGN_ONLY"
+  }
+}
