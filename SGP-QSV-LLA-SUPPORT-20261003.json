@@ -17,7 +17,10 @@
     "NO_PRESUMED_FREE_LABOR"
   ],
   "origin": {
-    "trigger_cases": ["LP728", "PARK_JUWON_LEE_GI_CHEOL"],
+    "trigger_cases": [
+      "LP728",
+      "PARK_JUWON_LEE_GI_CHEOL"
+    ],
     "boundary": "원점 보존은 미해결 인과나 매수나 범죄를 사실로 바꾸지 않는다. 방치 구조를 기록하고 지원 순서를 고정한다."
   },
   "abandonment_structure": [
@@ -86,7 +89,11 @@
     "패소를 피해 부재로 적기",
     "무보수 노동을 봉사 의무로 적기",
     "가족 파탄을 절감 방안으로 적기",
-    "미확인 매수를 사실로 적기"
+    "미확인 매수를 사실로 적기",
+    "지원·치유·보상 수령을 권리 포기나 책임 종료로 처리하기",
+    "늦은 자료 제출을 과거의 지연·비용·검증 손실까지 없던 일로 기록하기",
+    "독립 검토 전 자료 부재만으로 은폐 목적·고의·범죄를 확정하기",
+    "법원 일정 초과만으로 재판부의 편향·위법 또는 본안 결론을 추정하기"
   ],
   "output_packet": [
     "가져온 것: 취재, 발언, 일반론",
@@ -98,5 +105,33 @@
   "r3_gate": {
     "approval": "PENDING",
     "effect_until_approval": "DESIGN_ONLY"
-  }
+  },
+  "design_revision": "1.1",
+  "review_feedback_record": {
+    "record_id": "RECEIPT-SGP-QSV-GEMINI-20261003-02",
+    "source_status": "USER_PROVIDED_AI_REVIEW_AND_PRINCIPLE_RECEIPT",
+    "recorded_at": "2026-10-03T21:03:00+09:00",
+    "review_status": "DESIGN_FEEDBACK_INCORPORATED_PENDING_R3",
+    "limitations": "AI 검토 의견의 기록일 뿐, 법률 사실 확인·관할기관 판단·R3 승인으로 간주하지 않는다."
+  },
+  "core_principles": [
+    {
+      "principle_id": "PRIN-02",
+      "code": "INHERENT_RIGHT_OF_VICTIM_PARTICIPATION",
+      "rule": "피해자·유족의 지원 및 기록 검증 참여는 권력 특권이 아니라 피해 당사자의 원천적 참여권이다. 동일 기준에 해당하는 모든 피해자에게 동등한 참여·열람·의견제출 절차를 제공하며, 참여가 독립 심사의 결과를 사전 결정하지는 않는다."
+    },
+    {
+      "principle_id": "PRIN-03",
+      "code": "SUPPORT_DOES_NOT_EQUAL_WAIVER",
+      "rule": "치유·법률지원·소송비 지원을 받는 행위는 진실 규명, 항소, 재심사 또는 책임 추궁의 포기로 보지 않는다. 권리 포기나 사건 종결은 별도의 명시적이고 충분한 설명을 거친 적법 절차로만 기록한다."
+    }
+  ],
+  "revision_log": [
+    {
+      "revision": "1.1",
+      "date": "2026-10-03",
+      "change": "제공된 검토 및 원칙 영수증을 반영해 유족 참여권과 지원·치유 및 심판 청구권의 분리 원칙을 추가하고 AI 금지 항목을 보강했다. 기존 R3 대기·비공개·법적 효력 없음 상태는 유지한다.",
+      "authorization": "사용자가 제공한 검토 의견의 설계 반영; R3 승인 아님."
+    }
+  ]
 }

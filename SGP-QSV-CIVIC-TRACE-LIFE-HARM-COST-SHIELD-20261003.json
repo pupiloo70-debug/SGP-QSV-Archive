@@ -5,8 +5,13 @@
   "title_en": "Litigation-Cost Protection and State Remedy-Accountability Warnings for Serious Life-Harm Cases",
   "network": "SGP-QSV Network",
   "protocol": "CIVIC-TRACE",
-  "parent_rules": ["6.3", "6.4", "R2.6", "SGP-QSV-LLA-SUPPORT-20261003"],
-  "version": "0.1",
+  "parent_rules": [
+    "6.3",
+    "6.4",
+    "R2.6",
+    "SGP-QSV-LLA-SUPPORT-20261003"
+  ],
+  "version": "0.2",
   "created_at": "2026-10-03",
   "status": "DESIGN_DRAFT_FOR_R3_REVIEW",
   "publication_status": "NOT_PUBLISHED",
@@ -15,7 +20,11 @@
   "purpose_ko": "검증자료를 기관이 통제하거나 자료 손실·장기 지연이 문제 되는 사망·중대 생명피해 소송에서, 패소만으로 유족에게 상대방의 재판비를 전가하지 않고 법률·감정·기록확보 비용을 지원하며, 시정요구를 무시한 기관에는 근거와 정정절차가 있는 경고 태그 및 단계적 국가 구제책임을 설계한다.",
   "design_boundary": {
     "design_only": true,
-    "not_a_finding": ["특정 사건의 의학적 인과관계", "특정 기관·개인의 과실·고의·범죄", "법원의 위법 또는 편향"],
+    "not_a_finding": [
+      "특정 사건의 의학적 인과관계",
+      "특정 기관·개인의 과실·고의·범죄",
+      "법원의 위법 또는 편향"
+    ],
     "no_automatic_external_enforcement": "CIVIC-TRACE는 기록·지원·경고·제출 초안을 자동 준비할 수 있으나, 정부를 제재하거나 법원·기관에 명령하지 않는다. 법률상 강제력은 입법 및 관할 절차가 마련되어야 한다.",
     "source_design_status": "첨부된 SGP-QSV-LLA-SUPPORT-20261003은 DESIGN_FOR_R3_REVIEW / NOT_YET_R3_FIXED 상태다. 이 초안은 그 기록을 상위 승인 문서로 간주하지 않는다."
   },
@@ -49,8 +58,14 @@
     "시정 요구를 무시한 반복적 기관 불이행을 근거 기반 경고 태그로 공개하고, 기관·국가 시스템의 협력상 불이익으로 단계 연결한다."
   ],
   "eligibility_design": {
-    "covered_harm": ["사망", "영구적 또는 중대한 신체·생명 피해"],
-    "covered_claimants": ["피해자 본인", "유족 또는 적법한 대리인"],
+    "covered_harm": [
+      "사망",
+      "영구적 또는 중대한 신체·생명 피해"
+    ],
+    "covered_claimants": [
+      "피해자 본인",
+      "유족 또는 적법한 대리인"
+    ],
     "thresholds": [
       "피해와 소송의 존재가 기본 기록으로 확인되거나 합리적으로 주장되어 있을 것.",
       "핵심 증거의 생성·보존·접근·폐기에 기관 또는 사업자의 실질 통제력이 있을 것.",
@@ -67,7 +82,13 @@
   "cost_protection_model": {
     "stage_1_immediate_support": {
       "trigger": "적격성 사전심사 통과 또는 Rule 6.3 검증손실 검토 개시 후 긴급 필요 확인",
-      "supports": ["소송구조·공익 법률지원", "법원 인지·송달 등 필수 절차비", "독립 의학·병리·법과학 감정과 번역", "기록·검체 보존 및 복구 비용", "항소·재심사 전환을 위한 최소 법률 검토"],
+      "supports": [
+        "소송구조·공익 법률지원",
+        "법원 인지·송달 등 필수 절차비",
+        "독립 의학·병리·법과학 감정과 번역",
+        "기록·검체 보존 및 복구 비용",
+        "항소·재심사 전환을 위한 최소 법률 검토"
+      ],
       "outcome_independence": "지원은 승소·패소 또는 인과관계 인정 여부만으로 중단·환수하지 않는다. 허위·사기 청구 환수는 별도의 적법 절차와 입증을 요구한다."
     },
     "stage_2_adverse_cost_shield": {
@@ -100,63 +121,128 @@
       "누가 어떤 자료를 언제까지 설명·제출해야 하는지 갱신한다.",
       "법원 심리 지연은 편향·위법 확정이 아니라 쟁점별 이유와 상태를 묻는 지원 패킷으로 기록한다."
     ],
-    "clock_reset_prohibited_by": ["기관 내부 이송", "담당자 변경", "재청구 권고", "항소 제기", "근거 없는 행정 종결"],
-    "extension_requirements": ["항목별 서면 사유", "책임 부서 또는 역할", "잔존자료 보존조치", "고정된 다음 결정일"],
+    "clock_reset_prohibited_by": [
+      "기관 내부 이송",
+      "담당자 변경",
+      "재청구 권고",
+      "항소 제기",
+      "근거 없는 행정 종결"
+    ],
+    "extension_requirements": [
+      "항목별 서면 사유",
+      "책임 부서 또는 역할",
+      "잔존자료 보존조치",
+      "고정된 다음 결정일"
+    ],
     "closure": "각 증거 항목에 출처 기반 처분이 있고 각 구제 항목에 결과 또는 불가능 사유가 기록된 때만 닫는다. 패소·항소·시간 경과만으로 검증손실 구제 항목을 완료 처리하지 않는다."
   },
   "warning_tag_and_state_disadvantage": {
-    "tag_scope": "기관·부처·프로그램 단위가 기본이며, 반복된 독립 확인이 있는 경우 국가 시스템 수준 요약 태그를 추가한다. 국민·유족·국가 전체의 법적 유죄 표시는 하지 않는다.",
+    "tag_scope": "기관·부처·프로그램 단위가 기본이다. 국가 시스템 수준 요약은 반복된 독립 확인을 전제로 한다. 개인·유족·시민·국적 집단의 법적 유죄 표시는 하지 않는다.",
+    "lifecycle_states": [
+      "CANDIDATE",
+      "NOTICE_SENT",
+      "UNDER_REVIEW",
+      "ISSUED",
+      "REMEDY_UNDER_VERIFICATION",
+      "RESOLVED",
+      "CORRECTED",
+      "EXPIRED"
+    ],
     "levels": [
       {
         "tag": "REMEDY_CLOCK_MISSED",
-        "trigger": "6.3/6.4 운영 목표 초과, 정당한 연장 사유 또는 이행 계획 미기록",
-        "effect": "내부 경고, 지연검토와 비용지원 자동 개시. 법률 위반 또는 고의 방해 확정은 아님."
+        "trigger": "6.3/6.4 운영 목표 초과 또는 구체적 이행 계획·연장 이유가 기록되지 않음",
+        "effect": "지연 맥락 확인, 상태 질의 및 구제·비용지원 적격 심사를 시작한다. 법률 위반·고의 방해·재판부 비위의 확정은 아니다."
       },
       {
         "tag": "PUBLIC_AGENCY_REMEDY_WARNING",
-        "trigger": "시정요구 후 30일 동안 실질 답변·보존조치·구체적 일정이 없거나, 60일 검토/1회 연장 뒤에도 미해결이고 독립 검토가 확인한 경우",
-        "effect": "기관명·미이행 항목·출처·답변 여부·다음 이의일을 공개하는 경고기록. 개인 식별·민감의료정보는 최소화."
+        "trigger": "기관에 항목별 통지와 답변 기회를 주고도 정해진 응답기간 내 실질 답변·보존조치·일정이 없으며, 독립 검토가 미이행을 확인한 경우",
+        "effect": "근거 출처, 검토 범위, 미이행 항목, 기관 답변·반론, 다음 검토일을 함께 기록한다. 개인정보와 민감의료정보는 최소화한다."
       },
       {
         "tag": "SYSTEMIC_STATE_REMEDY_ALERT",
-        "trigger": "12개월 안에 서로 독립된 2건 이상에서 최종 미이행 경고가 유지되거나, 관할기관의 최종 시정·위법 판단을 이행하지 않은 경우",
-        "effect": "국가 시스템의 검증·구제 접근 위험으로 별도 요약하고, R3 인간 승인 후 국회·독립 감독기관·적절한 국제 인권 검토 경로에 제출 패킷을 보낸다."
+        "trigger": "12개월 안에 독립 확인을 거친 2건 이상의 미해결 경고가 유지되거나, 관할기관의 최종 시정 판단 불이행이 확인된 경우",
+        "effect": "R3 인간 승인과 공개된 기준에 따라 시스템 차원의 위험 요약 및 적절한 감독·인권 검토 제출안을 준비한다. 제출·제재는 권한 있는 인간·기관의 별도 절차를 따른다."
       }
     ],
+    "correction_and_resolution": {
+      "right_to_reply": "기관은 통지된 근거와 함께 답변, 반론, 정정 자료를 제출할 수 있고 기록에 동일한 가시성으로 첨부한다.",
+      "resolution_test": "자료 제공, 보존조치, 검색 범위 설명, 독립 검증 및 시정 계획의 실제 이행을 항목별 확인한다.",
+      "status_change": "구제 이행 확인 중에는 REMEDY_UNDER_VERIFICATION, 독립 검증 완료 후에는 RESOLVED, 원기록의 사실오류가 확인되면 CORRECTED로 상태를 변경한다. 기준 충족 시 EXPIRED 처리할 수 있다.",
+      "immutable_history": "상태 변경은 새 이벤트로 추가한다. 과거 경고·답변·지연기간·정정 사유는 감사 가능한 이력으로 보존하고, 현재 상태와 과거 이력을 함께 표시한다.",
+      "late_remedy": "뒤늦은 자료 제출은 해당 자료의 현재 구제 항목을 닫을 수 있으나 과거 지연·비용 발생 이력이나 별도 위반 판단을 자동 삭제·확정하지 않는다."
+    },
     "proposed_sgp_qsv_consequences": [
-      "경고가 해소될 때까지 관련 정부 프로그램에 대한 SGP-QSV의 인증·우수 거버넌스 인정·공동 파일럿 초청을 보류한다.",
-      "공개 연례보고서에 자료보존, 비용보호, 독립 재검토, 시정 이행 결과와 미해결 기간을 반영한다.",
-      "국가 시스템 수준 태그는 외부 협력 평가의 증거로 제공할 수 있지만, 제재·금융 불이익은 법률·조약·계약상 권한을 가진 주체가 별도 절차로 결정한다."
+      "미해결 경고가 있는 동안 해당 기관·프로그램의 SGP-QSV 인증 또는 공동 파일럿 인정을 보류하는 방안을 R3 검토에 부친다.",
+      "연례 보고서에는 기관 답변, 시정, 이의·정정과 미해결 기간을 함께 표시한다.",
+      "국가 단위 외부 불이익이나 제재는 SGP-QSV가 직접 부과하지 않으며, 법적 권한을 가진 주체가 독립 절차와 비례성 심사를 거쳐 결정한다."
     ],
-    "correction_and_expiry": "기관은 반론과 정정 자료를 같은 공개기록에 붙일 수 있다. 이행이 독립 검증되면 현재 태그를 RESOLVED 또는 REMEDY_UNDER_VERIFICATION으로 바꾸되 과거 경고·변경 이력은 삭제하지 않는다.",
-    "anti_collective_penalty": "국가 경고는 정부 시스템과 특정 기관의 검증·구제 의무 불이행을 지칭한다. 시민, 피해자, 국적 집단에 비용·서비스 제한을 전가하지 않는다.",
-    "human_gate": "AI는 태그 근거표와 반론을 생성할 수 있으나 공개·상향·협력상 불이익은 R3 인간 승인 및 공개된 절차 기준을 통과해야 한다. 외부 제출은 권한 있는 인간 또는 대리인이 승인한다."
+    "anti_collective_penalty": "경고는 특정 공공기관 또는 시스템의 검증·구제 의무 이행을 평가한다. 시민·유족·국민에게 비용이나 서비스 제한을 전가하지 않는다.",
+    "human_gate": "AI는 근거표, 반론, 일정 알림과 초안을 지원한다. 경고의 공개·상향·정정 및 외부 제출은 R3 인간 승인과 공개된 절차 기준을 따른다."
   },
   "state_model": {
-    "case_merits_axis": ["UNRESOLVED", "PARTIALLY_ADJUDICATED", "ADJUDICATED", "UNDER_APPEAL"],
-    "evidence_axis": ["AVAILABLE", "NOT_SEARCHED", "NOT_PRODUCED", "REPORTED_DESTROYED", "DESTROYED_CONFIRMED_BY_ITEM_LEVEL_RECORD", "UNKNOWN"],
-    "remedy_axis": ["OPENED", "COST_PROTECTION_PENDING", "COST_PROTECTION_ACTIVE", "DELAY_REVIEW_TRIGGERED", "PUBLIC_AGENCY_REMEDY_WARNING", "SYSTEMIC_STATE_REMEDY_ALERT", "REMEDY_PARTIALLY_COMPLETED", "REMEDY_ITEM_CLOSED"],
+    "case_merits_axis": [
+      "UNRESOLVED",
+      "PARTIALLY_ADJUDICATED",
+      "ADJUDICATED",
+      "UNDER_APPEAL"
+    ],
+    "evidence_axis": [
+      "AVAILABLE",
+      "NOT_SEARCHED",
+      "NOT_PRODUCED",
+      "REPORTED_DESTROYED",
+      "DESTROYED_CONFIRMED_BY_ITEM_LEVEL_RECORD",
+      "UNKNOWN"
+    ],
+    "remedy_axis": [
+      "OPENED",
+      "COST_PROTECTION_PENDING",
+      "COST_PROTECTION_ACTIVE",
+      "DELAY_REVIEW_TRIGGERED",
+      "PUBLIC_AGENCY_REMEDY_WARNING",
+      "SYSTEMIC_STATE_REMEDY_ALERT",
+      "REMEDY_PARTIALLY_COMPLETED",
+      "REMEDY_ITEM_CLOSED"
+    ],
     "separation_rule": "패소 상태는 피해 부재·악의·증거 폐기를 뜻하지 않는다. 6.3의 증거상태와 6.4의 구제·비용보호 상태는 본안 결과와 별도 유지한다."
   },
   "implementation_roadmap": [
     {
       "phase": "0_POLICY_DRAFT",
-      "actions": ["법무·인권·의학·피해자 단체와 비용보호 범위 검토", "민사소송법 제98조·제109조 및 소송구조 관련 법령의 개정 경로 확인", "비용보호 심사위원회 독립성·이해충돌 규칙 설계"],
+      "actions": [
+        "법무·인권·의학·피해자 단체와 비용보호 범위 검토",
+        "민사소송법 제98조·제109조 및 소송구조 관련 법령의 개정 경로 확인",
+        "비용보호 심사위원회 독립성·이해충돌 규칙 설계"
+      ],
       "status": "CURRENT_DRAFT"
     },
     {
       "phase": "1_NONBINDING_SUPPORT_PILOT",
-      "actions": ["독립 공익소송 지원기금 모형과 6.3/6.4 지원접수 시범운영", "기관별 경고 태그 공개기준·반론·정정 절차 시험", "본안 결과와 구제지원 실적을 분리 평가"],
+      "actions": [
+        "독립 공익소송 지원기금 모형과 6.3/6.4 지원접수 시범운영",
+        "기관별 경고 태그 공개기준·반론·정정 절차 시험",
+        "본안 결과와 구제지원 실적을 분리 평가"
+      ],
       "status": "PROPOSED"
     },
     {
       "phase": "2_LEGISLATIVE_REFORM",
-      "actions": ["중대 생명피해 공익소송 비용보호 특례 입법", "피해자 상대 비용집행 제한 및 결과와 분리된 법률·감정 지원 재원 마련", "기관의 보존·설명 불이행으로 추가된 비용의 사법적 전환·상환 절차 마련", "기관의 이의·정정·비용보호 예외에 대한 법원 통제 보장"],
+      "actions": [
+        "중대 생명피해 공익소송 비용보호 특례 입법",
+        "피해자 상대 비용집행 제한 및 결과와 분리된 법률·감정 지원 재원 마련",
+        "기관의 보존·설명 불이행으로 추가된 비용의 사법적 전환·상환 절차 마련",
+        "기관의 이의·정정·비용보호 예외에 대한 법원 통제 보장"
+      ],
       "status": "REQUIRES_LEGISLATION"
     },
     {
       "phase": "3_ACCOUNTABILITY_RECOGNITION",
-      "actions": ["반복 미이행에 대한 연례 국가 구제책임 지표 공개", "국회·독립 감독기관·국제 인권 절차에 인간 승인 보고", "외부 불이익은 법적 권한·독립심사·비례성을 가진 절차로만 연결"],
+      "actions": [
+        "반복 미이행에 대한 연례 국가 구제책임 지표 공개",
+        "국회·독립 감독기관·국제 인권 절차에 인간 승인 보고",
+        "외부 불이익은 법적 권한·독립심사·비례성을 가진 절차로만 연결"
+      ],
       "status": "REQUIRES_HUMAN_AND_LEGAL_REVIEW"
     }
   ],
@@ -211,11 +297,61 @@
       "date": "2026-10-03",
       "change": "6.3/6.4 검증손실·절차정체 규칙을 중대 생명피해 소송 비용보호, 구제 지원, 기관 경고 태그 설계와 연결한 첫 초안.",
       "authorizing_instruction": "User requested design initiation; this document remains pending R3 review and public approval."
+    },
+    {
+      "version": "0.2",
+      "date": "2026-10-03",
+      "change": "제공된 검토 의견을 반영해 원자료 통제에 따른 비례 비용책무, 지연 맥락을 반영하는 법원 절차지원, 기관 경고의 반론·정정·해소 이력, 유족 참여권 및 지원과 권리포기의 분리를 추가했다.",
+      "authorizing_instruction": "사용자가 제공한 AI 검토 의견을 설계안에 반영. R3 승인·공개·법적 효력은 여전히 대기."
     }
   ],
   "r3_gate": {
     "approval": "PENDING",
     "effect_until_approval": "DESIGN_ONLY",
     "no_silent_publication": true
+  },
+  "review_feedback_record": {
+    "record_id": "RECEIPT-SGP-QSV-GEMINI-20261003-02",
+    "source_status": "USER_PROVIDED_AI_REVIEW_AND_PRINCIPLE_RECEIPT",
+    "recorded_at": "2026-10-03T21:03:00+09:00",
+    "review_status": "DESIGN_FEEDBACK_INCORPORATED_PENDING_R3",
+    "scope": "비용보호 설계, 장기 소송 유족 지원, 6.3/6.4 구제시계 및 기관 경고 lifecycle",
+    "limitations": "제공된 AI 의견·영수증의 기록이지 법률 사실 확인, 관할기관 판단, R3 승인 또는 외부 시스템의 인증으로 취급하지 않는다."
+  },
+  "core_principles_for_r3_review": [
+    {
+      "principle_id": "PRIN-01",
+      "code": "AGGRAVATED_OBSTRUCTION_BY_WITHHOLDING_PUBLIC_GOODS",
+      "title_ko": "생명안전 검증자료의 공익성 및 비례적 방해 심사",
+      "rule": "BMR, CoA, 표준품 변경 승인 자료, 부검·병리 원자료 등은 생명안전 검증과 관련된 높은 공익성 자료로 분류해 보존·검색·설명 책임을 명확히 한다. 영업비밀 주장은 범위별 비식별화·비공개 심사 등 덜 제한적인 방법을 검토한다.",
+      "escalation_guardrail": "자료 미제출, 폐기 의심 또는 영업비밀 주장만으로 은폐 목적·고의·범죄를 확정하지 않는다. 독립 검토와 당사자 소명 기회를 거쳐 통제 의무 위반 및 의도적 은폐가 각각 입증된 경우에만 설계상 가중 검토 요소로 기록한다.",
+      "late_production": "늦은 자료 제출은 현재의 자료 접근 구제를 이행할 수 있지만, 이미 발생한 지연·비용·검증손실 기록을 지우거나 자발적·적시 협조로 소급 분류하지 않는다. 고의나 형사책임의 판단은 관할 절차에 맡긴다."
+    },
+    {
+      "principle_id": "PRIN-02",
+      "code": "INHERENT_RIGHT_OF_VICTIM_PARTICIPATION",
+      "title_ko": "피해자·유족의 실질 참여권",
+      "rule": "피해자와 유족은 지원·기록 검증·구제 우선순위 설계에 의견을 내고 기록에 접근할 실질적 참여권을 가진다. 이 참여는 권력이나 특권 주장이 아니라 피해 당사자의 원천적 참여권으로 설계한다.",
+      "equality_guardrail": "동일한 피해 유형과 기준에 해당하는 모든 사람에게 동일한 절차 접근권을 제공한다. 참여권은 개별 사실판단을 독점하거나 독립 심사 결과를 사전 결정하는 권한으로 바꾸지 않는다."
+    },
+    {
+      "principle_id": "PRIN-03",
+      "code": "SUPPORT_DOES_NOT_EQUAL_WAIVER",
+      "title_ko": "지원·치유와 진실 규명·심판 청구의 분리",
+      "rule": "지원, 보상, 치료, 공익기금 이용은 명시적이고 충분한 설명에 근거한 별도 동의 없이 검증 청구·이의제기·재심사 권리의 포기로 처리하지 않는다.",
+      "closure_guardrail": "기관이나 지원 제공자는 지원 수령만을 이유로 책임 종료, 기록 검증 종결 또는 청구 포기를 간주하지 않는다. 합의·권리 포기는 관할 법률이 정한 독립적이고 명시적인 절차에 따른다."
+    }
+  ],
+  "court_delay_review_safeguards": {
+    "purpose": "기한 초과 시 피해자 구제 지원과 절차 상태 확인을 시작하되 법원의 독립성 및 사건별 심리 차이를 보전한다.",
+    "trigger_effect": "운영 목표 초과는 상태 조회, 이유 기록, 법률·감정·기록 확보 지원 검토를 개시하는 신호다. 위법·편향·직무상 비위 또는 본안 판단을 자동 추정하지 않는다.",
+    "context_review": [
+      "사건 복잡도와 쟁점 수",
+      "당사자·기관의 자료 제출 및 신청 시점",
+      "법원 일정과 기일 변경 사유",
+      "미결정 쟁점이 당사자의 증거 접근 또는 비용에 미친 구체적 영향"
+    ],
+    "human_review": "독립된 절차지원 담당자가 공개 가능한 진행정보와 당사자 제출자료를 바탕으로 지연의 맥락, 다음 예상 단계 및 가능한 구제수단을 검토한다. 법원 결정의 당부는 관할 재판·불복 절차에서 판단한다.",
+    "no_clock_reset": "기관 이송, 담당자 변경, 항소, 사건 재배당은 사건 연혁을 지우거나 최초 접수일을 대체하지 않는다. 다만 실제 새 절차의 법정 기간은 해당 법률·법원 일정에 따라 별도로 계산한다."
   }
 }
