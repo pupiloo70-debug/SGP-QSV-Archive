@@ -1,0 +1,124 @@
+{
+  "schema": "SGP-QSV-POST-APPROVAL-REVIEW-REGISTER/1.0",
+  "document_id": "SGP-QSV-CT045-REVIEW-REGISTER-20261005-01",
+  "record_version": "1.0.0",
+  "date_kst": "2026-10-05",
+  "prepared_by": "ChatGPT / Codex",
+  "record_status": "PREPARED_FOR_R3_PUBLICATION",
+  "publication_status": "NOT_UPLOADED_BY_THIS_RESPONSE",
+  "origin": {
+    "case_id": "LP728",
+    "person": "故 박한결",
+    "rights_holder": "강숙경"
+  },
+  "canonical_repository": "https://github.com/pupiloo70-debug/SGP-DESIGN",
+  "related_archive": "https://github.com/pupiloo70-debug/SGP-QSV-Archive",
+  "approved_document_id": "SGP-QSV-CIVIC-TRACE-0.4.5-R3-APPROVED-20261005-01",
+  "approval_receipt_id": "R3-CT045-RESPONSIBILITY-ROUTING-20261005-01",
+  "approval_status": "R3_APPROVED_DESIGN_RECORD",
+  "review_effect": "검토자의 미열람이나 이견은 이미 이루어진 R3 설계 승인을 취소하지 않는다. 제안 변경은 별도 검토한다.",
+  "provenance": {
+    "grok": "사용자 첨부 JSON 파일을 직접 읽음. 모델의 웹 접근 주장 전체를 독립 실행 로그로 인증한 것은 아님.",
+    "gemini": "사용자가 이 대화에 붙여 넣은 영수증 텍스트",
+    "deepseek": "사용자가 이 대화에 붙여 넣은 영수증 텍스트",
+    "gpt_source_check": "GitHub 18·19·20번 공개 원문 직접 열람. 원 영수증은 변경하지 않음."
+  },
+  "receipts": [
+    {
+      "reviewer": "Grok",
+      "receipt_id": "SGP-QSV-CT045-REVIEW-20261005-GROK-01",
+      "classification": "PARTIALLY_SOURCE_VERIFIED_REVIEW",
+      "basis": "자기 영수증에 직접 URL 및 제한된 열람 범위 기재, 사용자 첨부 웹 결과 화면과 함께 검토",
+      "reported_commit_sha": "2f287c29528b960295f2a01c7fb256e1b8c7b855",
+      "remaining": [
+        "04·05·06번 전문 재열람",
+        "20번 필수 필드 및 허용 상태값에 맞춘 연결 정정",
+        "TEST-04에서 -70℃가 ≤-20℃ 범위에 포함됨과 인계 단계 차이를 명시",
+        "기존 승인 규칙을 새 제안으로 반복하지 않도록 세 제안의 추가 효과 명시"
+      ]
+    },
+    {
+      "reviewer": "Google Gemini",
+      "receipt_id": "SGP-QSV-CT045-REVIEW-20261005-GEMINI-01",
+      "classification": "LIMITED_CONTEXT_REVIEW",
+      "remaining": [
+        "최신 15번 승인본과 과거 초안을 구분",
+        "17·18번 미열람 여부 및 승인·담당 상태 확인 근거 정정",
+        "웹 도구가 없는 경우와 이용 가능하지만 미실행인 경우 구분",
+        "커밋 확인 불가능을 모든 AI에 일반화한 진술 철회",
+        "19번 TEST-01~05를 원 기준으로 평가; 자체 시험을 대체로 쓰지 않음",
+        "visible_model_version은 실제 표시 근거가 없으면 UNKNOWN",
+        "변호사비 전가 표현에서 비용 부담 주체 명료화",
+        "20번 서식 준수 및 CT-RULE-6.5 번호는 승인된 부모 규칙처럼 사용하지 않음"
+      ]
+    },
+    {
+      "reviewer": "DeepSeek",
+      "receipt_id": "SGP-QSV-CT045-REVIEW-20261005-DEEPSEEK-01",
+      "classification": "LIMITED_CONTEXT_REVIEW",
+      "remaining": [
+        "도구 부재는 검토 한계이지 요청서 논리 모순 또는 공개 파일 미제공의 증거가 아님",
+        "과거 README 후보 표시와 18번 현재 승인 상태를 구분",
+        "이전 이견은 최신 문서 대조 전 RECHECK_PENDING으로 보존",
+        "사용자 제공 텍스트만으로 GitHub 직접 열람 자격을 주장하지 않음",
+        "실제 네트워크 시도 없는 항목은 ATTEMPT_NOT_EXECUTABLE 또는 NOT_ATTEMPTED로 구분",
+        "closing의 직접 검토 결과 표현을 직접 미열람·문맥 검토 결과로 정정",
+        "19번 실제 시험은 미열람이면 NOT_TESTED 유지"
+      ]
+    }
+  ],
+  "gpt_dispatch_correction": {
+    "original_document_id": "SGP-QSV-CT045-DIRECT-REVIEW-DISPATCH-20261005-01",
+    "error": "instructions 및 instructions_ko 등에 일본어가 혼입됨",
+    "responsible_author": "ChatGPT / Codex",
+    "correction": "공개 저장소 19번 한국어 instructions_ko 및 20번 서식을 적용한다. 원 지시문은 보존하고 이 연결 정정을 덧붙인다.",
+    "rule": "작성자 오류를 피해 당사자의 오류로 전가하지 않는다."
+  },
+  "subrule_disposition": {
+    "status": "REVIEW_PENDING_NO_AUTOMATIC_ADOPTION",
+    "instruction": "기존 승인 규칙의 반복은 적용 해석으로 분류한다. 새로운 제안은 원 규칙·추가 효과·시험·실제 실행 주체를 적고 정확히 3건 제안한다. 근거 있는 이견을 동의로 바꾸지 않는다."
+  },
+  "correction_request_to_all_ai": {
+    "action": "원 영수증 보존 후 자신의 이름으로 연결 정정 영수증 출력",
+    "canonical_request_url": "https://github.com/pupiloo70-debug/SGP-DESIGN/blob/main/19-CT045-post-approval-direct-review-request.json",
+    "canonical_template_url": "https://github.com/pupiloo70-debug/SGP-DESIGN/blob/main/20-CT045-post-approval-review-receipt-template.json",
+    "required_fields": [
+      "reviewer",
+      "original_receipt_id",
+      "correction_receipt_id",
+      "qualification",
+      "sources_actually_accessed",
+      "sources_not_accessed",
+      "corrections",
+      "remaining_disagreements",
+      "self_evaluation_results",
+      "proposed_subrules",
+      "delivery_status"
+    ],
+    "instructions_ko": [
+      "이 등록부의 해당 모델 정정 항목을 확인하라. 동의를 강요하지 않으며 다른 모델 응답을 근거로 삼지 않는다.",
+      "실제 도구가 있으면 원문을 읽고 커밋·URL·필드 경로를 기록하라. 도구가 없으면 그 한계를 기록하고 미열람을 숨기지 말라.",
+      "원문을 읽지 못한 기존 이견은 철회나 확정 대신 재검토 대기로 보존하라.",
+      "공개 자료 재구성 노동을 유족에게 추가 의무로 부과하지 말라.",
+      "논리 시뮬레이션과 실제 실행을 구분하고 새 고소 비용·반복 증언을 내부 검토 개시 조건으로 삼지 말라."
+    ]
+  },
+  "locks": [
+    "AI_AGREEMENT != INDEPENDENT_EVIDENCE",
+    "R3_APPROVED_DESIGN != RUNTIME_DEPLOYED",
+    "NO_AUTOMATIC_GUILT != NO_INVESTIGATION",
+    "NOT_ACCESSED != NONEXISTENT",
+    "DESIGN_PARTICIPATION != RIGHTS_WAIVER"
+  ],
+  "upload_guidance": {
+    "primary_destination": "SGP-DESIGN 저장소 루트에 22번 파일 추가",
+    "archive_destination": "SGP-QSV-Archive에도 동일 파일 추가 가능. 기존 registry.json은 실제 스키마 확인 전 덮어쓰지 않는다.",
+    "raw_receipts": "Grok 원 JSON은 그대로 별도 보존. Gemini·DeepSeek 원문을 다른 작성자가 수정해 해당 모델의 정정 영수증으로 발행하지 않는다."
+  },
+  "execution_status": {
+    "runtime": "NOT_DEPLOYED_BY_THIS_REGISTER",
+    "external_submission": "NOT_SENT",
+    "case_fact_or_liability_change": false,
+    "new_axiom_or_hierarchy": false
+  }
+}
