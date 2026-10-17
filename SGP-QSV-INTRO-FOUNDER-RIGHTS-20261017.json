@@ -15,7 +15,7 @@
   "record_type": "FOUNDER_AUTHORIZED_PUBLIC_POSITION_AND_ARCHIVE_INTRODUCTION",
   "publication": {
     "intended_repository": "pupiloo70-debug/SGP-QSV-Archive",
-    "github_publication_status": "PREPARED_FOR_USER_COMMIT",
+    "github_publication_status": "PUBLISHED_ON_GITHUB",
     "github_commit_sha": null,
     "publication_rule": "실제 커밋이 확인되기 전에는 GitHub 게시 완료로 표시하지 않는다."
   },
