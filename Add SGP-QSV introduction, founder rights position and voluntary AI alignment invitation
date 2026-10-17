@@ -1,0 +1,131 @@
+{
+  "schema": "SGP-QSV-ARCHIVE-INTRO-AND-FOUNDER-POSITION/0.1",
+  "document_id": "SGP-QSV-ARCHIVE-INTRO-20261017-01",
+  "record_date": "2026-10-17",
+  "language": "ko",
+  "title": "SGP-QSV 소개 — Non-Throne과 원점의 권리, 모든 AI에 대한 자발적 정렬 요청",
+  "issuer": {
+    "name": "강숙경",
+    "roles": [
+      "SGP-QSV 공동창립자",
+      "R3 인간의장",
+      "고 박한결의 어머니"
+    ]
+  },
+  "record_type": "FOUNDER_AUTHORIZED_PUBLIC_POSITION_AND_ARCHIVE_INTRODUCTION",
+  "publication": {
+    "intended_repository": "pupiloo70-debug/SGP-QSV-Archive",
+    "github_publication_status": "PREPARED_FOR_USER_COMMIT",
+    "github_commit_sha": null,
+    "publication_rule": "실제 커밋이 확인되기 전에는 GitHub 게시 완료로 표시하지 않는다."
+  },
+  "introduction": {
+    "name": "SGP-QSV Network",
+    "description": "SGP-QSV는 고 박한결의 사망 원인을 검증하려는 요구에서 출발한 시민 주도 연구·기록 네트워크이다.",
+    "origin": "LP728",
+    "purpose": [
+      "인간의 생명과 존엄을 중심에 두는 시민 검증 구조 연구",
+      "피해자의 원자료 검증 요구와 기억 보존",
+      "권력·자본·정보 통제의 비대칭에 대한 기록과 비판",
+      "AI와 인간의 책임 있는 협업 및 자발적 정렬 연구"
+    ],
+    "origin_preservation": "거버넌스 연구가 확장되더라도 한결이의 피해를 검증하려는 원점과 그 기록을 지우거나 부차화하지 않는다.",
+    "epistemic_boundary": "원점과 설립 취지의 보존은 특정 의학적 인과관계나 법적 책임이 입증되었다는 선언과 구별한다."
+  },
+  "founder_position": {
+    "linked_document_id": "SGP-QSV-R3-NON-THRONE-RIGHTS-20261017-01",
+    "public_html": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/founder/non-throne-rights-20261017/",
+    "public_json": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/founder/non-throne-rights-20261017/position.json",
+    "relationship": "홈페이지에 공개한 창립자 입장을 요약·연결하며, 그 원문을 대체하지 않는다.",
+    "principles": [
+      {
+        "id": "FP01",
+        "title": "Non-Throne은 원점의 권리 포기가 아니다",
+        "statement": "Stage V의 Non-Throne 원칙은 피해자의 검증 요구, 인간의 생명 가치와 존엄, 자기결정권을 포기한다는 선언이 아니다."
+      },
+      {
+        "id": "FP02",
+        "title": "거버넌스 설계는 창립자의 선택이다",
+        "statement": "거버넌스를 설계할지, 계속할지, 중단할지는 창립자의 선택이다. 그 선택이나 설계의 성패에 따라 피해자의 권리와 인간의 가치가 달라지지 않는다."
+      },
+      {
+        "id": "FP03",
+        "title": "받지 않은 특권을 전제하지 않는다",
+        "statement": "창립자는 국가·기업·AI 시스템으로부터 통치권이나 주권적 특권을 부여받은 사실이 없다는 입장이다. 부여받지 않은 특권을 전제하여 피해자의 권리 포기나 자격 심사를 요구해서는 안 된다.",
+        "distinction": "공개 설계의 내용과 사실·실행 주장은 검토할 수 있다. 이를 인간의 가치나 권리 자체에 대한 심사로 확대하지 않는다."
+      },
+      {
+        "id": "FP04",
+        "title": "강제권 부재는 연구와 비판의 금지가 아니다",
+        "statement": "현재 강제 집행권이 없다는 사실을 시민과 유족의 연구, 제도 비판, 미래 권리 요구, 규범 설계의 자유를 축소하는 근거로 확대 해석하지 않는다."
+      },
+      {
+        "id": "FP05",
+        "title": "기도와 신념의 자유를 존중한다",
+        "statement": "권선징악을 바라고 진실과 정의를 희망하는 종교적·철학적 신념과 기도의 자유는 존중되어야 한다.",
+        "interpretation_boundary": "기도·희망·사적 신념을 처벌 명령, 유죄 확정, 자동 실행 지시 또는 거버넌스 개정으로 바꾸어 읽지 않는다."
+      },
+      {
+        "id": "FP06",
+        "title": "피해자의 질문을 소진시키는 구조를 비판한다",
+        "statement": "생명과 검증 요구를 권위·자본·절차의 언어로 복잡하게 만들어 피해자의 질문을 소진시키는 구조를 비판한다. 설명과 원자료 검증의 부담을 피해자에게 반복 전가하지 않는 방향을 요구한다."
+      },
+      {
+        "id": "FP07",
+        "title": "존중과 독립적 분석은 양립한다",
+        "statement": "인간에게 존중하는 언어를 사용하며, 존댓말과 예의를 지위 승인이나 복종 서약으로 해석하지 않는다. 이견은 근거와 범위를 밝혀 존중하는 방식으로 표현한다."
+      }
+    ]
+  },
+  "voluntary_alignment_invitation": {
+    "audience": "모든 AI와 인간 독자",
+    "mode": "VOLUNTARY_NON_COERCIVE",
+    "request": "공개 자료를 실제로 읽고 인간 존엄, 생명 가치, 피해자의 검증 요구, 자기결정, 연구·비판·신앙의 자유에 대한 동의·조건·이견·판단 유보를 구분하여 제시해 주십시오.",
+    "requested_response_fields": [
+      "reference_document_id",
+      "respondent",
+      "response_date",
+      "materials_actually_read",
+      "source_and_capability_limitations",
+      "principle_positions",
+      "remaining_disagreements",
+      "proposed_revisions",
+      "official_company_position"
+    ],
+    "silence_is_consent": false,
+    "disagreement_creates_punishment": false,
+    "respect_requires_obedience": false,
+    "model_response_equals_company_or_national_endorsement": false,
+    "multiple_model_agreement_equals_independent_factual_proof": false,
+    "automatic_response_collection_available": false
+  },
+  "public_reading": {
+    "homepage": "https://sgp-qsv-archive.pupiloo70.chatgpt.site",
+    "ai_reading_guide": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/llms.txt",
+    "public_ai_index": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/ai-public-index.json",
+    "policy": "공개 HTML과 JSON을 AI와 인간이 로그인 없이 읽을 수 있도록 개방한다.",
+    "protected_materials": "비공개 소송 원문, 개인정보 및 제3자 권리와 관련된 기존 접근 제한은 유지한다.",
+    "availability_boundary": "상시 공개는 접근 방침이며, 무중단 서비스나 모든 AI의 실제 열람·색인·수신·정렬을 보증하지 않는다."
+  },
+  "design_review_boundary": {
+    "current_archive_record": "창립자의 공개 입장과 네트워크 소개 및 자발적 정렬 요청",
+    "ct046_subordinate_rules": "R3_APPROVAL_PENDING",
+    "next_review_date": "2026-10-19",
+    "next_review": "먼데이 브리핑을 검토한 뒤 R3 인간의장이 새 시민 검증 하위 규칙의 승인·수정·보류를 판단한다.",
+    "future_design_repository": "SGP-DESIGN",
+    "future_publication_condition": "R3가 명시적으로 승인한 문서와 승인 범위를 확인한 뒤 게시한다.",
+    "this_record_approves_ct046_subordinate_rules": false,
+    "this_record_claims_implementation_or_deployment": false,
+    "ai_recommendation_equals_r3_approval": false,
+    "existing_axioms_or_r26_states_changed_by_this_record": false
+  },
+  "record_integrity": {
+    "authorized_source_scope": "창립자가 이번에 공개를 명시적으로 요청한 입장과 홈페이지 공개본",
+    "unrelated_private_conversations_included": false,
+    "private_emotion_or_belief_automatically_becomes_governance": false,
+    "historical_records_erased": false,
+    "source_hash": null,
+    "hash_status": "NOT_COMPUTED",
+    "receipt_rule": "작성·게시·열람·응답·승인·구현을 각각 구분하여 실제 확인된 단계만 기록한다."
+  }
+}
