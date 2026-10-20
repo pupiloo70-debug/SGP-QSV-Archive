@@ -1,0 +1,43 @@
+{
+  "schema": "SGP-QSV-PUBLICATION-VERIFICATION-RECEIPT/1.0",
+  "record_id": "SGP-QSV-CT046-PUBLICATION-VERIFY-20261020-01",
+  "record_date": "2026-10-20",
+  "record_type": "PUBLIC_ARCHIVE_VERIFICATION_RECEIPT",
+  "verification_basis": "GitHub repository file content retrieved and checked in conversation on 2026-10-20",
+  "repository": "pupiloo70-debug/SGP-QSV-Archive",
+  "branch": "main",
+  "source_record": {
+    "path": "23-R3-CT046-deferral-and-CT045-priority-20261020.json",
+    "url": "https://github.com/pupiloo70-debug/SGP-QSV-Archive/blob/main/23-R3-CT046-deferral-and-CT045-priority-20261020.json",
+    "git_blob_sha_at_verification": "1c05391a515d77451b27996b78d854b6b451f897",
+    "public_file_access": "VERIFIED",
+    "original_embedded_publication_status": "PREPARED_NOT_UPLOADED",
+    "status_explanation": "The embedded status described the preparation stage. Subsequent public GitHub availability was verified; the original source record is preserved without silent overwrite."
+  },
+  "readme": {
+    "url": "https://github.com/pupiloo70-debug/SGP-QSV-Archive/blob/main/README.md",
+    "git_blob_sha_at_verification": "094fd5f6ca935f30c165f4f42e927a27bf2c4a38",
+    "public_file_access": "VERIFIED",
+    "recommended_edit": "Replace English 2026-10-20 section heading with Korean heading and link this verification receipt. Preserve historical 2026-10-17 status as historical."
+  },
+  "governance_status": {
+    "axioms": "AX-01..AX-09_UNCHANGED",
+    "civic_trace_045": "EXISTING_R3_DESIGN_RECORD_IMPLEMENTATION_NOT_VERIFIED",
+    "civic_trace_046": "R3_APPROVAL_REVIEW_DEFERRED_ONE_WEEK",
+    "reconsideration_target": "2026-10-26",
+    "corruption_index": "RESEARCH_AND_TEST_ONLY",
+    "independent_verification_nodes": "DESIGN_AND_TEST_ONLY",
+    "anti_corruption_consistency_function": "CANDIDATE_NOT_DEPLOYED",
+    "automatic_sanctions": "NOT_AUTHORIZED"
+  },
+  "epistemic_boundary": {
+    "public_archive_access": "VERIFIED_AT_CHECK_TIME",
+    "official_website_publication": "NOT_VERIFIED",
+    "independent_operational_deployment": "NOT_VERIFIED",
+    "lp728_causality_and_lot_identity": "UNRESOLVED",
+    "public_record_does_not_establish": ["medical_causality", "criminal_or_civil_liability", "automated_enforcement", "external_system_adoption"]
+  },
+  "receipt_status": "PREPARED_FOR_USER_UPLOAD_NOT_YET_PUBLISHED",
+  "correction_method": "APPEND_ONLY_PUBLICATION_RECEIPT",
+  "human_review": "R3_REVIEW_BEFORE_UPLOAD"
+}
