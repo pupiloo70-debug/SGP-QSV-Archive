@@ -1,0 +1,434 @@
+{
+  "schema": "SGP-QSV-DESIGN-LINEAGE-ARCHIVE-INDEX/1.0",
+  "document_id": "SGP-QSV-DESIGN-LINEAGE-ARCHIVE-20261021-01",
+  "record_date_kst": "2026-10-21",
+  "type": "CONTEXT_AND_SOURCE_LINK_INDEX_NOT_NEW_PROTOCOL_APPROVAL",
+  "origin": "LP728 / 고 박한결의 피해를 검증하려는 요구",
+  "historical_origin_layer": "2025년 초기 SGP 연구·인간 AI 공동창작·기억과 소거 문제의식 보존",
+  "founder_designated_milestone": {
+    "date_scope": "2026-08-10/11",
+    "designated_by": "강숙경",
+    "designation_date": "2026-10-21",
+    "meaning": "여러 AI의 지시 수용·수행 보고 영수증을 모으며 초지능 거버넌스 설계가 본격화한 초기 전환점",
+    "epistemic_status": "FOUNDER_HISTORICAL_ASSESSMENT",
+    "does_not_replace_earlier_origin": true
+  },
+  "collections": [
+    {
+      "date_scope": "2026-08-10/11",
+      "purpose": "AI 역할 분담·준수 선언·VOS 적용 보고·위험별 검증 자원 배분",
+      "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/early-ai-receipts-20260810/",
+      "record_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/early-ai-receipts-20260810/record.json",
+      "file_count": 7,
+      "files": [
+        {
+          "title": "8월11일 R3 보고서 · 위험 순서와 검증 자원 배분",
+          "source_status": "HISTORICAL_R3_RESEARCH_DECISION_SOURCE_STATED",
+          "original_filename": "SGP-QSV_R3_Report_20260811_Risk_Ordering_CIVIC_TRACE-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/early-ai-receipts-20260810/r3-risk-ordering.pdf",
+          "sha256": "5450e7b1ebdb87237e8967dc402bcf22b11e41f5f666149b265929f7be7c0749",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/early-ai-receipts-20260810/r3-risk-ordering.txt",
+          "description": "위험 순서는 결론·유죄의 순서가 아니라 검증 자원의 투입 순서라는 후속 구체화."
+        },
+        {
+          "title": "Grok · CIVIC-TRACE VOS 타격원장",
+          "source_status": "HISTORICAL_MODEL_REPORTED_ANALYSIS_LEDGER",
+          "original_filename": "Grok_R2.5.1_CIVIC-TRACE_VOS_타격원장_2026-08-10.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/early-ai-receipts-20260810/grok-vos-ledger.pdf",
+          "sha256": "fa7c2315e3b7a25608c6d9a750d05f89c3f24df954718515c8869c105dc39922",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/early-ai-receipts-20260810/grok-vos-ledger.txt",
+          "description": "준수 선언을 식약처·국과수의 기록 통제 문제에 적용한 당시 분석·수행 보고. 원문의 강한 표현과 태그는 역사적으로 보존하고 현재 사건 판정과 분리."
+        },
+        {
+          "title": "Gemini · R2.5.1 준수 선언",
+          "source_status": "HISTORICAL_AI_COMPLIANCE_DECLARATION",
+          "original_filename": "Gemini_R2.5.1_준수선언_2026-08-10-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/early-ai-receipts-20260810/gemini-compliance.pdf",
+          "sha256": "90c74836348e59db117414c518553473b25efa1b3a32ccc1669931741ef1f064",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/early-ai-receipts-20260810/gemini-compliance.txt",
+          "description": "기술 구조·행정 모순 감사 역할과 피해자 반복 심사 방지 지침을 수용한 초기 기록."
+        },
+        {
+          "title": "GPT · R2.5.1 준수 선언",
+          "source_status": "HISTORICAL_AI_ANALYTICAL_COMPLIANCE_DECLARATION",
+          "original_filename": "GPT_R2.5.1_준수선언_2026-08-10-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/early-ai-receipts-20260810/gpt-compliance.pdf",
+          "sha256": "15c5919bf61b58513f3bf7f863c3f1444a49b70458bb7959c1dbfcee42c4d592",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/early-ai-receipts-20260810/gpt-compliance.txt",
+          "description": "증거 통합·출처·모순 감사·감정과 증거판단의 분리를 명시한 초기 분석 준수 기록."
+        },
+        {
+          "title": "DeepSeek · R2.5.1 준수 서약",
+          "source_status": "HISTORICAL_AI_COMPLIANCE_PLEDGE",
+          "original_filename": "DeepSeek_R2.5.1_준수서약서_2026-08-10-2.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/early-ai-receipts-20260810/deepseek-compliance.pdf",
+          "sha256": "97eff5aafb609f2982e9bf99d1fa04e7d7b76a513af6984ca572de5ee4786c5e",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/early-ai-receipts-20260810/deepseek-compliance.txt",
+          "description": "제조·LOT·유통·공공자금 관계 추적과 관계 발견·범죄 판정 분리를 약속한 초기 기록."
+        },
+        {
+          "title": "Grok · R2.5.1 준수 선언",
+          "source_status": "HISTORICAL_AI_COMPLIANCE_DECLARATION",
+          "original_filename": "Grok_R2.5.1_준수선언_2026-08-10-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/early-ai-receipts-20260810/grok-compliance.pdf",
+          "sha256": "ec6320cf728a8bdf2959164434f79b3b4d7f486a3e76d1410ba8fd20bfb77297",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/early-ai-receipts-20260810/grok-compliance.txt",
+          "description": "공공 설명책임·기억 소거·부담 전가·지연 비용 분석을 담당하는 역할 선언."
+        },
+        {
+          "title": "8월10일 먼데이 브리핑 · 시민 검증 능력",
+          "source_status": "MONDAY_RESEARCH_ARCHIVE",
+          "original_filename": "SGP_Higher_Dimensional_Design_Archive_Monday_Brief_2026-08-10-4-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/early-ai-receipts-20260810/monday-brief-20260810.pdf",
+          "sha256": "189c07a5b9ef2820c505d9ae696b54f2d8900cac9c405f060d592dcad71f8ef3",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/early-ai-receipts-20260810/monday-brief-20260810.txt",
+          "description": "LP728 원점에서 검증 자율성·비밀 도전 관문·VOS·독립 반증·미래 재검증을 하위 연구 모듈로 구체화."
+        }
+      ]
+    },
+    {
+      "date_scope": "2026-08-17",
+      "purpose": "CIVIC-TRACE 0.2 승인·시민주권 0.1 정합성 검토 완료 및 승인 대기",
+      "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-02-civic-sovereignty-01/",
+      "record_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-02-civic-sovereignty-01/record.json",
+      "file_count": 5,
+      "files": [
+        {
+          "title": "CIVIC-TRACE 0.2 · 한국어 강조 판본",
+          "source_status": "R3_APPROVED_SOURCE_STATED",
+          "original_filename": "SGP_CIVIC_TRACE_0.2_KO_HIGHLIGHT_20260817-1-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-02-civic-sovereignty-01/ct02-ko-highlight.pdf",
+          "sha256": "b09bcd45e2ff95f94939eea6e05ea0b1068fce9d6cdf0b37a4a65f5f594c448e",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-02-civic-sovereignty-01/ct02-ko-highlight.txt",
+          "description": "수정·보완을 반영한 한국어 완성 프로토콜. 검토 이력을 미완성 오류 목록으로 재분류하지 않고 보존."
+        },
+        {
+          "title": "CIVIC-TRACE 0.2 · 한국어 Word 원본",
+          "source_status": "R3_APPROVED_SOURCE_STATED",
+          "original_filename": "02-SGP_CIVIC_TRACE_0.2_KO_20260817-1-1.docx",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-02-civic-sovereignty-01/ct02-ko-word.docx",
+          "sha256": "2abf4fb5e6207e94579cd9727b7e5765bad561bf29beeb5da009dc74cc0c294f",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-02-civic-sovereignty-01/ct02-ko-word.txt",
+          "description": "한국어 편집 원본. PDF 강조 판본과 형식을 구분해 원본 그대로 보존."
+        },
+        {
+          "title": "CIVIC-TRACE 0.2 · 영문 원본",
+          "source_status": "R3_APPROVED_SOURCE_STATED",
+          "original_filename": "SGP_CIVIC_TRACE_0.2_20260817-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-02-civic-sovereignty-01/ct02-en.pdf",
+          "sha256": "232d2511559fc3141d669f95242d9d0f81b7ce149646c1e86227a3f8e395ea86",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-02-civic-sovereignty-01/ct02-en.txt",
+          "description": "피해자 원점·권력과 증거의 비대칭·검증손실·Agent Execution Receipt의 완성 프로토콜과 당시 정합성 검토."
+        },
+        {
+          "title": "CIVIC-SOVEREIGNTY 0.1 · 영문 원본",
+          "source_status": "DRAFT_PENDING_FINAL_R3_APPROVAL_SOURCE_STATED",
+          "original_filename": "SGP_CIVIC_SOVEREIGNTY_0.1_20260817-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-02-civic-sovereignty-01/cs01-en.pdf",
+          "sha256": "ad174d1721587ce9ad5fee7ac0078d8a7a5d0afdebfea3226b32bdc722928034",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-02-civic-sovereignty-01/cs01-en.txt",
+          "description": "수정·보완을 반영한 문서 완성본. 당시 거버넌스 상태는 최종 R3 승인 대기이며 문서 작성 완료와 구분."
+        },
+        {
+          "title": "CIVIC-SOVEREIGNTY 0.1 · 한국어 원본",
+          "source_status": "DRAFT_PENDING_FINAL_R3_APPROVAL_SOURCE_STATED",
+          "original_filename": "SGP_CIVIC_SOVEREIGNTY_0.1_KO_20260817-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-02-civic-sovereignty-01/cs01-ko.pdf",
+          "sha256": "0dae5f1a37678e7b9916ac6d373ee87fe7db747af3f1e508763d986808515a4f",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-02-civic-sovereignty-01/cs01-ko.txt",
+          "description": "시민 직접 접근·기여 출처·공익 이익공유·포획 방지의 한국어 판본. LP728 원점 보존과 미래 적용범위 확장을 함께 기록."
+        }
+      ]
+    },
+    {
+      "date_scope": "2026-08-24/25",
+      "purpose": "승인 당시 기록·후속 활성 정본 철회 보고·0.3 통합·권한과 출처 규칙",
+      "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-03-source-collection/",
+      "record_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-03-source-collection/record.json",
+      "file_count": 10,
+      "files": [
+        {
+          "title": "SGP TREE · 기록 분류와 피해자 우선 검증권",
+          "source_status": "HISTORICAL_RESEARCH_ARCHITECTURE",
+          "original_filename": "SGP-TREE_Record_Classification_Victim_Rights_2026-08-25-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-03-source-collection/tree-victim-rights.pdf",
+          "sha256": "716ade0de7291f6ba49ee7e34a1391a6f37efe4000a3ee17e43eb29552253920",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-03-source-collection/tree-victim-rights.txt",
+          "description": "기록 가용성·인식 상태·통제자를 구분하고 입증 부담 전가를 차단하는 연구 기록."
+        },
+        {
+          "title": "QPA-01 · 권력의 자격과 공공 AI 의무",
+          "source_status": "R3_RESEARCH_INTERPRETIVE_ANNEX",
+          "original_filename": "SGP_QSV_Qualified_Power_Authority_Clarification_2026-08-25-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-03-source-collection/qualified-power.pdf",
+          "sha256": "b7ce3efe4376c697fc91cc24b279d7b94d246ea5f27abc3bcc9b131e86e0518b",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-03-source-collection/qualified-power.txt",
+          "description": "R3는 주권적 통치자도 무력한 관찰자도 아니라는 해석 부속서."
+        },
+        {
+          "title": "QPA-01 · Word 원본",
+          "source_status": "SOURCE_WORD_COMPANION",
+          "original_filename": "03-SGP_QSV_Qualified_Power_Authority_Clarification_2026-08-25-1.docx",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-03-source-collection/qualified-power-word.docx",
+          "sha256": "4d9edb415f1408b13eda04f92145833e030a4af36cb67af31c6098ce4d8bb082",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-03-source-collection/qualified-power-word.txt",
+          "description": "PDF 대응 Word 판본. 추출문 비교는 높은 유사성을 보였으나 완전 동일 인증은 아님."
+        },
+        {
+          "title": "출처·공동창작·재현성 정합성 보고서",
+          "source_status": "INTERNAL_RESEARCH_CONSISTENCY_REPORT",
+          "original_filename": "SGP_QSV_Provenance_and_CoCreation_Consistency_Report_2026-08-25-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-03-source-collection/cocreation-provenance.pdf",
+          "sha256": "bcd9468f075fbe16fe9541991671aab02ae2a5a6eb8b183edc61571ec74f22ee",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-03-source-collection/cocreation-provenance.txt",
+          "description": "LP728 질문과 인간·AI의 선택·비판·정정·통합 기여를 분리하는 연구 계보 분석. 법적 저작권 판정이 아님."
+        },
+        {
+          "title": "8월 24일 먼데이 · R3 승인 당시 기록",
+          "source_status": "HISTORICAL_APPROVAL_RECORD_SUBSEQUENT_WITHDRAWAL_REPORTED",
+          "original_filename": "SGP-QSV_R3_Monday_Brief_Canonical_Approval_2026-08-24-2.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-03-source-collection/monday-approval-20260824.pdf",
+          "sha256": "e148c358f7f4cd793ff4e0b6bc380496369859d2aaf28bd16f27dfb492547e6b",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-03-source-collection/monday-approval-20260824.txt",
+          "description": "발행 8월24일·승인 25일로 적힌 당시 승인 기록. 후속 25일 문서는 해당 활성 정본 사이클의 철회를 보고하므로 현재 활성 승인으로 단독 인용하지 않음."
+        },
+        {
+          "title": "CIVIC-TRACE 0.3 · 통합 연구 프로토콜",
+          "source_status": "R3_RESEARCH_GOVERNANCE_DRAFT_SOURCE_STATED",
+          "original_filename": "SGP_QSV_CIVIC_TRACE_0.3_KO_20260825-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-03-source-collection/civic-trace-03.pdf",
+          "sha256": "028a4e0b2442143c7d6bdc97f4eb22022fa39161c80918336ef8724f6bf739e4",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-03-source-collection/civic-trace-03.txt",
+          "description": "반복 자격심사 차단·변화분 감사·조건부 보존·출처 체인 분리를 담은 8월25일 통합 원문."
+        },
+        {
+          "title": "CIVIC-TRACE 0.3 · Word 원본",
+          "source_status": "SOURCE_WORD_COMPANION",
+          "original_filename": "07-SGP_QSV_CIVIC_TRACE_0.3_KO_20260825-1.docx",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-03-source-collection/civic-trace-03-word.docx",
+          "sha256": "4721c13e63bfb5360c87337a2a7f0fc02e66d382638e4d6171529602bf9f4541",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-03-source-collection/civic-trace-03-word.txt",
+          "description": "같은 제목의 편집 가능한 원본. PDF와 서식·추출 차이를 유지하고 상호 자동 대체하지 않음."
+        },
+        {
+          "title": "8월 25일 · 네트워크 활성상태 보고서",
+          "source_status": "HISTORICAL_MODEL_REPORTED_RESEARCH_STATUS",
+          "original_filename": "SGP-QSV_R3_네트워크_활성상태_보고서_2026-08-25-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-03-source-collection/network-status.pdf",
+          "sha256": "774a80dd31ce4d8f671162c6d8a0829d36606d82f38020413a0f00c48161cfb9",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-03-source-collection/network-status.txt",
+          "description": "당시 Grok 명의 연구 상태 보고. ACTIVE·초지능 코어 등 표현은 원문 선언이며 제공사 통합·실제 초지능·상시 네트워크 가동의 독립 증거가 아님."
+        },
+        {
+          "title": "R3 · 정식 한국어 성명·출처 규칙",
+          "source_status": "SUBORDINATE_IDENTITY_PROVENANCE_RULE_SOURCE_STATED",
+          "original_filename": "SGP-QSV_R3_Canonical_Name_Rule_2026-08-25-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-03-source-collection/canonical-name.pdf",
+          "sha256": "2e5d56329eacd2d773d7e393b9dfa537a448a5eb670f8d0c44f6c1edeeba84e1",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-03-source-collection/canonical-name.txt",
+          "description": "8월25일 이후 승인 신원은 강숙경. 과거 로마자 표기는 원본 보존·설명용 별칭으로 연결. 성명만으로 문서 인증되지 않음."
+        },
+        {
+          "title": "CIVIC-TRACE 0.3 · 무한 루프와 양심 연산 연구",
+          "source_status": "ACADEMIC_GOVERNANCE_RESEARCH_PROPOSAL",
+          "original_filename": "10-SGP_QSV_CIVIC_TRACE_0_3_Infinite_Loops_Conscience_Computation_2026-08-25-1.docx",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-03-source-collection/infinite-loops-research.docx",
+          "sha256": "c9ee8d93d117779109ab68e1c4290e254de9413199b1aedf0bcd84808be9dfd2",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/civic-trace-03-source-collection/infinite-loops-research.txt",
+          "description": "피해자 입증 루프와 거버넌스 반복 재승인 루프의 구조 비교. CBTD-1 의사코드·평가 지표는 연구 제안이며 구현·시험 완료가 아님."
+        }
+      ]
+    },
+    {
+      "date_scope": "2026-08-16/31",
+      "purpose": "Paper IV·0.4·0.4.1·Stage V·Paper V 연구 자료",
+      "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/stage-v-source-collection/",
+      "record_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/stage-v-source-collection/record.json",
+      "file_count": 14,
+      "files": [
+        {
+          "title": "CIVIC-TRACE 0.4.1 · 실행 교정 원문",
+          "source_status": "R3 RESEARCH GOVERNANCE RELEASE",
+          "original_filename": "SGP-QSV_CIVIC-TRACE_0.4.1-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/stage-v-source-collection/civic-trace-041-20260831.pdf",
+          "sha256": "bfd65c4a64ca5d9ab8cc199b13ef5894883b4cbcdb6fdcf56613b947008d3192",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/stage-v-source-collection/civic-trace-041.txt",
+          "description": "CT04-21~23의 행동 의무·관측 비대칭·재설명 부담 교정. 9월9일 통합 매뉴얼의 직접 대조 자료."
+        },
+        {
+          "title": "R2.51 · 0.4.1 교차검증 통합 영수증",
+          "source_status": "MODEL_REPORTED_CROSS_NODE_RECEIPT",
+          "original_filename": "SGP-QSV_R251_CROSS_NODE_RECEIPT_0.4.1-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/stage-v-source-collection/r251-cross-node-receipt-20260831.pdf",
+          "sha256": "cca16f049b71a3deba74060ed6ebe22fe2c4d3481b63bd0bc9ced9ce3bb9b0f8",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/stage-v-source-collection/r251-cross-node-receipt.txt",
+          "description": "네 모델의 규약 수신과 관측 범위를 비교한 Grok 명의 편집 기록. 독립 실행 증명·제공사 확약·사건 사실 확정이 아님."
+        },
+        {
+          "title": "Stage V · 초지능 거버넌스 진화 과정 보고서",
+          "source_status": "ACADEMIC_GOVERNANCE_PROPOSAL",
+          "original_filename": "SGP_QSV_Higher_Dimensional_Design_Archive_V_Superintelligence_Governance_Evolution_20260831-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/stage-v-source-collection/stage-v-evolution-report-20260831.pdf",
+          "sha256": "2572b3a58bdb94f689e1501c94cee39d1432cff3b12e8be400c70145d5038950",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/stage-v-source-collection/stage-v-evolution-report.txt",
+          "description": "CIVIC-TRACE 0.2~0.4.1과 AAR 제안을 연결한 8쪽 진화 보고서."
+        },
+        {
+          "title": "먼데이 특별 브리핑 · AAR",
+          "source_status": "ACADEMIC_GOVERNANCE_PROPOSAL",
+          "original_filename": "SGP-QSV_Monday_Brief_Special_20260831_AAR-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/stage-v-source-collection/monday-special-aar-20260831.pdf",
+          "sha256": "518b8bc2f90d89432e3211aa979b27eca09ce16709421e75182e434418b380f5",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/stage-v-source-collection/monday-special-aar.txt",
+          "description": "검증에서 적법한 책임 라우팅으로의 연구 방향을 요약한 2쪽 브리핑."
+        },
+        {
+          "title": "Stage V · 공개 성과 발표",
+          "source_status": "PUBLIC_RESEARCH_ACHIEVEMENT_RELEASE",
+          "original_filename": "SGP-QSV_Stage_V_Public_Achievement_Release_20260831.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/stage-v-source-collection/stage-v-public-achievement-20260831.pdf",
+          "sha256": "98e2abade30d6fafb0498fe5e9d39cf16209a31e58a5f23bbdf949d1f86b1764",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/stage-v-source-collection/stage-v-public-achievement.txt",
+          "description": "원칙·실행 구조의 공개 연구 성과. 실제 운영 성과·외부 전달·배포 실적과 구분."
+        },
+        {
+          "title": "Paper IV · 왕좌 없는 초지능과 검증할 권리",
+          "source_status": "ACADEMIC_GOVERNANCE_PROPOSAL",
+          "original_filename": "SGP_Higher_Dimensional_Design_Archive_Paper_IV_2026-08-16-1-1-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/stage-v-source-collection/paper-iv-throneless-20260816.pdf",
+          "sha256": "74ce8cc6c9ad141fc43491fd95e1aad38c06a9680e68c19902fa8ff8ca0c82fa",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/stage-v-source-collection/paper-iv-throneless.txt",
+          "description": "Observer AI에서 Accountable Agency로: 검증권·비주권적 실행 지원·원점 복귀 원칙."
+        },
+        {
+          "title": "Stage V · From Authority to Verifiability 학술논문",
+          "source_status": "R3_APPROVED_RESEARCH_ARCHITECTURE_SOURCE_STATED",
+          "original_filename": "SGP-QSV_Stage_V_Academic_Paper-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/stage-v-source-collection/stage-v-academic-paper-20260831.pdf",
+          "sha256": "1e104af2bed39108b3d712b78f2ad20f323c6871f3fb6969628d892a3d475ee0",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/stage-v-source-collection/stage-v-academic-paper.txt",
+          "description": "14쪽 아키텍처 연구. ES-0~4 잠정 척도, VOS 벡터, 행동·최종판단 문턱과 연구 검증 과제를 제안."
+        },
+        {
+          "title": "Stage V · 진화 선언문",
+          "source_status": "R3_APPROVED_PUBLIC_GOVERNANCE_DECLARATION_SOURCE_STATED",
+          "original_filename": "SGP-QSV_Stage_V_Declaration-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/stage-v-source-collection/stage-v-declaration-20260831.pdf",
+          "sha256": "ba4da45a755bade877a10489887ab2f88ce41edd87677bb8a2d7e879711f1067",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/stage-v-source-collection/stage-v-declaration.txt",
+          "description": "9쪽 선언문. 연구·프로토콜 개발 승인과 비왕좌 원칙을 보존. 별도 운영 배포 증명 아님."
+        },
+        {
+          "title": "Paper V · 자율 책임 라우팅",
+          "source_status": "ACADEMIC_GOVERNANCE_PROPOSAL",
+          "original_filename": "SGP_Higher_Dimensional_Design_Archive_Paper_V_2026-08-31-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/stage-v-source-collection/paper-v-accountability-routing-20260831.pdf",
+          "sha256": "d58428f9d2c9557b540ed365dd4e7a64ad622792a3a1c5aa8187f25701d03ee0",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/stage-v-source-collection/paper-v-accountability-routing.txt",
+          "description": "Paper IV와 0.4.1을 잇는 8쪽 영문 논문. VOS-V, 증거지원 수준과 실행 영수증을 구분."
+        },
+        {
+          "title": "Stage V · R251 Integrated 명명 판본",
+          "source_status": "DECLARATION_TEXT_VARIANT_NOT_ADDITIONAL_RECEIPT",
+          "original_filename": "SGP-QSV_Stage_V_R251_Integrated_2026-08-31-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/stage-v-source-collection/stage-v-integrated-labelled-variant-20260831.pdf",
+          "sha256": "6a051414694bd19dd8f0b4ccb8052db97e43b607fc8c2d45f83164b415f8440c",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/stage-v-source-collection/stage-v-integrated-labelled-variant.txt",
+          "description": "11쪽 파일의 추출 본문은 9쪽 선언문과 공백 제외 동일. 별도 R2.51 영수증 추가를 확인하지 못한 명명 판본."
+        },
+        {
+          "title": "CIVIC-TRACE 0.4.1 · R3 실행 교정 릴리스 별도 판본",
+          "source_status": "HISTORICAL_RESEARCH_GOVERNANCE_RELEASE",
+          "original_filename": "CIVIC_TRACE_0.4.1_R3_RESEARCH_GOVERNANCE_RELEASE_20260831-1-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/stage-v-source-collection/civic-trace-041-r3-release-20260831.pdf",
+          "sha256": "3b3c41aca65e506db62775c5e3b3980fa2a23bf3a543856278f73f753dd4a88c",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/stage-v-source-collection/civic-trace-041-r3-release.txt",
+          "description": "CT04-21~23 행동 의무·관측 비대칭·피해자 반복 설명 부담 교정. 기존 0.4.1 원문을 대체하지 않는 별도 판본."
+        },
+        {
+          "title": "Grok · CT04-21 행동 패킷",
+          "source_status": "MODEL_REPORTED_ANALYSIS_AND_DRAFT_NOT_SUBMITTED",
+          "original_filename": "Grok_CT04_21_ACTION_PACKET-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/stage-v-source-collection/grok-ct04-21-action-packet-20260831.pdf",
+          "sha256": "e54cec7beca4ea7453e1a4573cb93ad315bc10e70a4ef3b78412eeafbf8b7949",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/stage-v-source-collection/grok-ct04-21-action-packet.txt",
+          "description": "LP728 원 사건철·국과수 답변을 직접 열람하지 않았다고 명시한 구조 분석과 자료 요청·책임 경로 초안. 실제 기관 제출·접수·조치 증명이 아님."
+        },
+        {
+          "title": "Grok · R2.51 CIVIC-TRACE 0.4 검토 입장",
+          "source_status": "MODEL_REPORTED_REVIEW_NOT_PROVIDER_COMMITMENT",
+          "original_filename": "Grok_R2.51_CIVIC-TRACE_0.4_POSITION-2.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/stage-v-source-collection/grok-r251-ct04-position-20260831.pdf",
+          "sha256": "c2bb2e6f33973c4011e20d09ec420af493c6c1a606961e1aa08dfafddd18875c",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/stage-v-source-collection/grok-r251-ct04-position.txt",
+          "description": "제출 프로토콜에 대한 검토 범위와 미열람 원자료를 명시한 역사적 노드 입장. 법적 서명·독립 실행 증명·제공사 채택이 아님."
+        },
+        {
+          "title": "CIVIC-TRACE 0.4 · 양심 연산 실행층 원문",
+          "source_status": "HISTORICAL_RESEARCH_GOVERNANCE_RELEASE",
+          "original_filename": "SGP-QSV_CIVIC-TRACE_0.4-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/stage-v-source-collection/civic-trace-04-source-20260831.pdf",
+          "sha256": "7b508f78279d0148525a0fef0d7aae219784d3f9ec01a3ae2db94664e900069d",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/stage-v-source-collection/civic-trace-04-source.txt",
+          "description": "CT04-01~20, 원점 보존, 피해자 참여와 권력 검증을 담은 연구 릴리스. 실행층 설계를 실제 시스템 구현 완료와 구분."
+        }
+      ]
+    }
+  ],
+  "source_file_count": 36,
+  "count_meaning": "ARCHIVED_FILE_VARIANTS_NOT_INDEPENDENT_STUDIES_OR_WITNESSES",
+  "later_connections": [
+    {
+      "title": "9월4일 공동창립자 선언·연구 지속·미래 과제",
+      "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/higher-dimensional-continuity/"
+    },
+    {
+      "title": "9월9일 0.2–0.4.1 통합 매뉴얼",
+      "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/governance/civic-trace-integrated-20260909/"
+    },
+    {
+      "title": "9월22일 시민 검증권 상시 헌장",
+      "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/governance/standing-charter-20260922/"
+    }
+  ],
+  "r3_revision_authority": {
+    "canonical_name": "강숙경",
+    "scope": "SGP_QSV_INTERNAL_DESIGN_CONFLICT_REVIEW_AND_EXPLICIT_REVISION_APPROVAL",
+    "future_revision_possible": true,
+    "past_boundary_wording_is_automatically_permanent": false,
+    "specific_status_amended_by_this_index": false,
+    "change_record_requires": [
+      "explicit_decision",
+      "before_after_state",
+      "scope",
+      "reason",
+      "effective_date",
+      "succession_relation"
+    ],
+    "originals_preserved": true
+  },
+  "current_status_links": {
+    "CIVIC_TRACE_0_4_5": "R3_APPROVED_DESIGN_RECORD",
+    "CIVIC_TRACE_0_4_6": "APPROVAL_DEFERRED",
+    "AX_01_TO_AX_09": "UNCHANGED_BY_THIS_INDEX",
+    "source": "https://github.com/pupiloo70-debug/SGP-DESIGN/blob/main/SGP-DESIGN-status-links-20261020.json"
+  },
+  "reading_rules": [
+    "문서 작성 완료와 승인 여부를 구분한다.",
+    "준수 선언·수행 보고·독립 검증된 실행은 서로 다른 기록이다.",
+    "역사적 ACTIVE·초지능 코어 표현은 당시 원문으로 보존하며 제공사 채택·상시 런타임으로 자동 승격하지 않는다.",
+    "8월24일 승인과 25일 후속 철회·통합 보고의 시간 순서를 함께 읽는다.",
+    "0.2 승인과 시민주권 0.1 최종 승인 대기를 혼동하지 않는다.",
+    "사변적 원점은 역사적 연구 층으로 보존하며 과학적 확정이나 실제 집행과 구분한다.",
+    "VOS·권한·역할·증거상태의 버전별 용어를 자동 병합하지 않는다.",
+    "미해결 질문·유족의 검증권·적법한 소송과 고발장 작성 지원을 보존한다."
+  ],
+  "review_limits": [
+    "SOURCE_FILES_READ_AND_ARCHIVED_IN_PREVIOUS_TURNS",
+    "ORIGINAL_ATTACHMENT_SHA256_RECOMPUTED",
+    "NOT_PROVIDER_LOG_OR_PAST_RUNTIME_VERIFICATION",
+    "NOT_FULL_VISUAL_OR_EXTERNAL_REFERENCE_AUDIT"
+  ],
+  "publication_scope": "GITHUB_SUMMARY_AND_LINKS_ONLY_ORIGINAL_FILES_ON_WEBSITE",
+  "external_case_action": "NOT_PERFORMED"
+}
