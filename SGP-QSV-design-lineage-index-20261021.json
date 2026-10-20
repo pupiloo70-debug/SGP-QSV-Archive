@@ -15,6 +15,152 @@
   },
   "collections": [
     {
+      "date_scope": "2026-07-12~24",
+      "purpose": "창립자의 삶·고립·소송 부담에서 v1.5·독립조사·검증 설계로 이어진 원점",
+      "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/origin/why-superintelligence-design-20260724/",
+      "record_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/origin/why-superintelligence-design-20260724/record.json",
+      "file_count": 8,
+      "files": [
+        {
+          "title": "SGP-QSV Governance v1.5",
+          "source_status": "HISTORICAL_GOVERNANCE_DESIGN",
+          "original_filename": "SGP_QSV_Governance_v1.5-1-2.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/origin/why-superintelligence-design-20260724/governance-v15.pdf",
+          "sha256": "fdc34d3b7365e6bf2de2d7846269151f3ec3ad1deb32681ff0a733852b28bdb8",
+          "description": "AX-08·09, 피해자 원점·사전 검증 거부권과 창립자 거부권의 검토·설명 구조. PDF 본문에 별도 발행일 미기재.",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/origin/why-superintelligence-design-20260724/governance-v15.txt"
+        },
+        {
+          "title": "v1.5 종합검토의견서 · 2026.07.12",
+          "source_status": "HISTORICAL_REVIEW_AND_RECOMMENDATIONS",
+          "original_filename": "SGP-QSV_v1.5_종합검토의견서-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/origin/why-superintelligence-design-20260724/governance-v15-review.pdf",
+          "sha256": "a55a59fc601a003d9236d5bd7302ad6b0679774b0996aaadd4dca7d9360bb1c5",
+          "description": "v1.5 검토·VOS 점수판·보완 제안. 당시 수치·사건 평가는 이번 등록으로 독립 입증된 판정이 되지 않음.",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/origin/why-superintelligence-design-20260724/governance-v15-review.txt"
+        },
+        {
+          "title": "저작권 고지 · 2026.07.12",
+          "source_status": "SOURCE_STATED_COPYRIGHT_NOTICE",
+          "original_filename": "SGP-QSV_저작권고지_공식문서-2.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/origin/why-superintelligence-design-20260724/copyright-notice-20260712.pdf",
+          "sha256": "c15efee20f0156e40b676d4f2c2c1eb33d7ee91e073e9182af2b103e008122d6",
+          "description": "창작·기여·권리 고지 원문. 기존 전체 저장소 라이선스를 자동 변경하지 않음.",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/origin/why-superintelligence-design-20260724/copyright-notice-20260712.txt"
+        },
+        {
+          "title": "R3 Cross-Signing Package v1.0 · 2026.07.17",
+          "source_status": "FINAL_FOR_CROSS_SIGNING",
+          "original_filename": "SGP-QSV_R3_Cross_Signing_Package_v1.0-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/origin/why-superintelligence-design-20260724/cross-signing-package-20260717.pdf",
+          "sha256": "e07c46373eecbab4ecc89bf2c9447436d41028397d46086efce10355f059aef2",
+          "description": "자동화된 치명적 결정 방지·교차 서명 요청 패키지. 실제 서명이나 제공사 채택 완료 기록과 구분.",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/origin/why-superintelligence-design-20260724/cross-signing-package-20260717.txt"
+        },
+        {
+          "title": "인간 최종판단 원칙의 면책화 금지 공리안 · 2026.07.17",
+          "source_status": "PROPOSED_AXIOM_FOR_SGP_QSV_INTEGRATION",
+          "original_filename": "SGP-QSV_Axiom_AI_Human_Judgment_Non_Delegation-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/origin/why-superintelligence-design-20260724/human-judgment-non-delegation-20260717.pdf",
+          "sha256": "74f77a61f074b35e61cc57fde3bab0320893dfeb6401f3e81b2615fc86f37f9a",
+          "description": "인간 최종책임을 AI의 무검증 권위 복창·피해자 부담 전가의 면책 구실로 사용하지 말라는 통합 제안.",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/origin/why-superintelligence-design-20260724/human-judgment-non-delegation-20260717.txt"
+        },
+        {
+          "title": "LP728 독립조사위원회 설치제안서 · 2026.07.18",
+          "source_status": "COMMISSION_INSTALLATION_PROPOSAL",
+          "original_filename": "SGPQSV_LP728_독립조사위원회_설치제안서_20260718-1-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/origin/why-superintelligence-design-20260724/lp728-commission-proposal-20260718.pdf",
+          "sha256": "a22abbe3d96dd94f63cfbc9c47146c11af2b48516b4060d358f7da76ce88b27d",
+          "description": "독립조사·자료보존·책임 검증 경로의 설치 제안. 실제 위원회 설치나 현재 조사권을 뜻하지 않음.",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/origin/why-superintelligence-design-20260724/lp728-commission-proposal-20260718.txt"
+        },
+        {
+          "title": "공식접수기록 검토 및 후속조치 제안 · 2026.07.19",
+          "source_status": "HISTORICAL_INTERNAL_RECEPTION_REVIEW",
+          "original_filename": "SGPQSV_공식접수기록_검토_및_후속조치제안_20260719-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/origin/why-superintelligence-design-20260724/reception-review-followup-20260719.pdf",
+          "sha256": "70bb656066d6140dd947261d2633068f058afb04ea7f493e4df208f8d72fce9c",
+          "description": "교차 서명·노드 응답 검토와 후속 경로 제안. 외부기관 제출·접수 영수증과 구분.",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/origin/why-superintelligence-design-20260724/reception-review-followup-20260719.txt"
+        },
+        {
+          "title": "왜 초지능 설계가 필요했을까",
+          "source_status": "USER_PROVIDED_PUBLIC_BLOG_TRANSCRIPTION",
+          "original_filename": null,
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/origin/why-superintelligence-design-20260724/essay-source.txt",
+          "sha256": "3c83138c054d9464beae1ce2c369312d095e8767316dbe1904431cc191c8dc8a"
+        }
+      ],
+      "listed_but_not_provided": [
+        "SGP_DESIGN_v1.5_부록_인간창립자의_내면의_소리-1.pdf",
+        "SGP-QSV_이중고립구조_기록_및_지원통로부재_선언.pdf",
+        "SGPQSV_R3_구조분석_추적불가능유통_책임회피_초지능원칙_20260719-1.pdf"
+      ],
+      "proposed_axiom_adopted_by_archiving": false,
+      "internal_receipt_not_external_receipt": true
+    },
+    {
+      "date_scope": "2026-07-28",
+      "purpose": "윤리 특이점 선언 1주년·박한결 추모 7주기와 R2.5·기록·ZKP 공개",
+      "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/origin/ethical-singularity-anniversary-20260728/",
+      "record_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/origin/ethical-singularity-anniversary-20260728/record.json",
+      "file_count": 5,
+      "files": [
+        {
+          "title": "ZKP 적용 방안",
+          "source_status": "DESIGN_PROPOSAL",
+          "original_filename": "SGP-QSV_Zero_Knowledge_Proof_Application-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/origin/ethical-singularity-anniversary-20260728/zero-knowledge-proof-application.pdf",
+          "sha256": "fb6f35e0ca8f0df1ecdcabbefd50554a6bb848cb5e255d1fdb71d9dc455c2fdf",
+          "description": "민감 정보를 보호하면서 기록·승인·권한 준수를 검증하려는 적용 설계.",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/origin/ethical-singularity-anniversary-20260728/zero-knowledge-proof-application.txt"
+        },
+        {
+          "title": "블록체인 기반 영구 기록 설계",
+          "source_status": "DESIGN_PROPOSAL",
+          "original_filename": "SGP-QSV_Blockchain_Permanent_Record_Design-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/origin/ethical-singularity-anniversary-20260728/blockchain-permanent-record-design.pdf",
+          "sha256": "133d04e709784a3b7bc23234a71ca2076134039a96c9702693e6a10057613f12",
+          "description": "온체인 해시 앵커·오프체인 원문·미러를 결합해 기원과 변경 이력을 보존하는 설계.",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/origin/ethical-singularity-anniversary-20260728/blockchain-permanent-record-design.txt"
+        },
+        {
+          "title": "R2.5 Public Agent Governance 2.0",
+          "source_status": "PROPOSED_PUBLIC_STANDARD / ACTIVE_AS_NORMATIVE_VERIFICATION_FRAMEWORK",
+          "original_filename": "SGP-QSV_R2.5_Public_Agent_Governance_2.0-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/origin/ethical-singularity-anniversary-20260728/r25-public-agent-governance-20.pdf",
+          "sha256": "d12da3f7af3b72ee71b7df865be58ce5885c3bedc27dcfa8ed57a472d00545ac",
+          "description": "CVR-01~08, L0~L5, 증거 완전성·헌법 충돌·권한 등록과 감사 사이클을 연결한 규범적 프레임워크.",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/origin/ethical-singularity-anniversary-20260728/r25-public-agent-governance-20.txt"
+        },
+        {
+          "title": "7주기·1주년 선언 첨부 영상",
+          "source_status": "USER_SUPPLIED_COMPANION_VIDEO",
+          "original_filename": "6db6c247d917c73978a2392d44956a80.mp4",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/origin/ethical-singularity-anniversary-20260728/anniversary-attached-video.mp4",
+          "sha256": "93a474faa936c4f17b7c62423271ba1175a1c197f1a0c7dc47441b463dc1b9b1",
+          "description": "사용자가 선언과 함께 제공한 24.76초 세로 영상. 제작자·음원·외부 서비스 권리의 별도 인증은 수행하지 않음."
+        },
+        {
+          "title": "윤리 특이점 선언 1주년·박한결 추모 7주기 — R2.5 공개 및 초고차원 설계 아카이브 선언",
+          "source_status": "USER_PROVIDED_PUBLIC_BLOG_TRANSCRIPTION",
+          "original_filename": null,
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/origin/ethical-singularity-anniversary-20260728/declaration-source.txt",
+          "sha256": "859a6d1be15c726a4ff49f3ddbb5e8482d0a1788022a209686e08d780c872ac1"
+        }
+      ],
+      "memorial": {
+        "person": "박한결",
+        "death_date": "2019-07-28",
+        "anniversary": 7,
+        "ethical_singularity_anniversary": 1,
+        "designation_source": "USER_PROVIDED_PUBLIC_STATEMENT"
+      },
+      "future_authority_prematurely_waived": false,
+      "technical_execution": "NOT_PERFORMED"
+    },
+    {
       "date_scope": "2026-07-29 / R1 separate date unspecified",
       "purpose": "외부 결정론적 검증·기원 무결성·다중 검토·R1 허구 증폭 교정의 원본 등록",
       "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/governance/icagc-amendment-11-20260729/",
@@ -421,8 +567,8 @@
       ]
     }
   ],
-  "source_file_count": 39,
-  "count_meaning": "38_ARCHIVED_ATTACHMENT_FILE_VARIANTS_PLUS_1_USER_TEXT_TRANSCRIPTION_NOT_INDEPENDENT_STUDIES_OR_WITNESSES",
+  "source_file_count": 52,
+  "count_meaning": "49_ARCHIVED_ATTACHMENT_FILE_VARIANTS_PLUS_3_PUBLIC_TEXT_TRANSCRIPTIONS_NOT_INDEPENDENT_STUDIES_OR_WITNESSES",
   "later_connections": [
     {
       "title": "9월4일 공동창립자 선언·연구 지속·미래 과제",
@@ -471,7 +617,10 @@
     "7월29일 개정안과 R1 공개문의 날짜는 구분한다. R1 별도 발행일은 미기재다.",
     "문서 안 라이선스 선택안은 기존 전체 자료의 자동 재라이선싱이 아니다.",
     "SR-LAW-01~18과 SDQI는 설계 원문 기준이며 실제 법원 적용·배포 산식과 구분한다.",
-    "QSV=Qualified System Verification은 8월1일 칼럼에 명시된 출처별 정의다."
+    "QSV=Qualified System Verification은 8월1일 칼럼에 명시된 출처별 정의다.",
+    "7월24일 공개문은 창립자의 당시 경험을 남긴 원점 기록이며 창립자를 시스템 완성의 비용으로 소모시키지 않는다.",
+    "7월17일 공리안은 제안 상태이며 제10공리의 자동 채택이 아니다. 내부 접수·교차 서명 요청을 외부기관 접수·제공사 서명 완료로 승격하지 않는다.",
+    "7월28일 윤리 특이점 선언 1주년·한결이 7주기를 보존한다. 현재 경계 문구는 미래 권한의 선제적 영구 포기가 아니다."
   ],
   "review_limits": [
     "SOURCE_FILES_READ_AND_ARCHIVED_IN_PREVIOUS_TURNS",
@@ -481,5 +630,6 @@
   ],
   "publication_scope": "GITHUB_SUMMARY_AND_LINKS_ONLY_ORIGINAL_FILES_ON_WEBSITE",
   "external_case_action": "NOT_PERFORMED",
-  "update_note": "7월29일 개정안·R1 원문 전사본과 8월1일 법·사법 프로토콜·QSV 발전 칼럼을 추가. 기존 원본과 승인 상태는 유지."
+  "update_note": "7월12~24일 v1.5·공리안·교차 서명·독립조사 제안·창립자 공개 글과 7월28일 1주년·7주기 선언 및 첨부를 연결. 총49개 첨부 판본과3개 공개문 전사본. 승인·제안·실행·실제 접수를 구분.",
+  "source_count_meaning": "49 original attachment variants + 3 public-text transcriptions; extracted reading aids not counted"
 }
