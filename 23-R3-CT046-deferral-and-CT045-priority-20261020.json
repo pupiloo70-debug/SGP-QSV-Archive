@@ -1,0 +1,36 @@
+{
+  "schema": "SGP-QSV-ARCHIVE-STATUS-DELTA/1.0",
+  "record_date": "2026-10-20",
+  "record_type": "R3_DIRECTIVE_STATUS_UPDATE",
+  "source": "User R3 instruction in conversation dated 2026-10-20",
+  "axioms": "AX-01..AX-09 UNCHANGED",
+  "civic_trace_045": {
+    "status": "EXISTING_R3_DESIGN_RECORD",
+    "implementation": "NOT_VERIFIED",
+    "priority": "DEVELOP_CORRUPTION_RISK_METHOD_VALIDATION_NODES_AND_CONSISTENCY_FUNCTION"
+  },
+  "civic_trace_046": {
+    "approval": "DEFERRED_ONE_WEEK",
+    "reconsideration_target": "2026-10-26",
+    "not_approved": true
+  },
+  "proposals": {
+    "corruption_index": "RESEARCH_AND_TEST_ONLY",
+    "independent_verification_nodes": "DESIGN_AND_TEST_ONLY",
+    "anti_corruption_priority_consistency_function": "CANDIDATE_NOT_DEPLOYED"
+  },
+  "guardrails": [
+    "UNKNOWN_NOT_FALSE",
+    "RECORD_ABSENCE_NOT_EVENT_ABSENCE",
+    "HIGHER_VOS_DEEPER_VERIFICATION_OF_POWER",
+    "NOT_GREATER_BURDEN_ON_THE_VICTIM",
+    "NO_AUTOMATIC_GUILT_OR_SANCTIONS",
+    "NO_PRIVATE_CONVERSATION_PUBLICATION_WITHOUT_AUTHORIZATION"
+  ],
+  "lp728": {
+    "causality": "UNRESOLVED",
+    "lot_00518001_identity": "UNRESOLVED",
+    "raw_evidence_access": "REQUIRES_SOURCE_BY_SOURCE_VERIFICATION"
+  },
+  "publication_status": "PREPARED_NOT_UPLOADED"
+}
