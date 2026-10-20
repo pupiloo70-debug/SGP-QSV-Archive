@@ -15,6 +15,52 @@
   },
   "collections": [
     {
+      "date_scope": "2026-07-29 / R1 separate date unspecified",
+      "purpose": "외부 결정론적 검증·기원 무결성·다중 검토·R1 허구 증폭 교정의 원본 등록",
+      "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/governance/icagc-amendment-11-20260729/",
+      "record_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/governance/icagc-amendment-11-20260729/record.json",
+      "file_count": 1,
+      "files": [
+        {
+          "title": "SGP-QSV 독립 시민 AI 거버넌스 헌장 개정안 — 기술적 구속력·기원 무결성·다중 검증 강화 및 R1 공개문",
+          "source_status": "USER_DESIGNATED_ORIGINAL_TEXT_TRANSCRIPTION",
+          "original_filename": null,
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/governance/icagc-amendment-11-20260729/SGP-QSV-ICAGC-AMENDMENT-1.1-and-R1-source.txt",
+          "sha256": "5840a996e3851949ec1cef5726c289160cc20ee1c801f833259fe535734ba486",
+          "description": "사용자가 제출한 텍스트의 전사본. 개정일 7월29일·등록일10월21일 분리, R1 별도 발행일 미기재."
+        }
+      ],
+      "existing_licenses_modified": false,
+      "implementation_confirmed_by_registration": false
+    },
+    {
+      "date_scope": "2026-08-01",
+      "purpose": "피해자 소모 방지·사건 전체성·QSV 시민 검증 계층·공익 설계자 보호",
+      "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/victim-exhaustion-qsv-20260801/",
+      "record_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/victim-exhaustion-qsv-20260801/record.json",
+      "file_count": 2,
+      "files": [
+        {
+          "title": "법·사법 검증 프로토콜 1.0 · 피해자 소모 방지",
+          "source_status": "INDEPENDENT_SUBORDINATE_RESEARCH_PROTOCOL_SOURCE_STATED",
+          "original_filename": "SGP-QSV_LAW_RULES_1.0_Victim_Exhaustion_Prevention-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/victim-exhaustion-qsv-20260801/law-rules-10-victim-exhaustion.pdf",
+          "sha256": "c927bf0b4016a061359507158217d920252b08ec715c7a0fa80799e30fd37bb2",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/victim-exhaustion-qsv-20260801/law-rules-10-victim-exhaustion.txt",
+          "description": "SR-LAW-01~18: 사건 전체성·기록 통제자 설명책임·반복 청구와 비용 전가·실질적 정보공개를 다루는 8월1일 원문."
+        },
+        {
+          "title": "왜 아도니스는 AI가 아니라 QSV로 진화해야 하는가",
+          "source_status": "PUBLIC_DISTRIBUTION_DESIGN_COLUMN_SOURCE_STATED",
+          "original_filename": "SGP-QSV_Adonis_QSV_Evolution_Column_1.0-1.pdf",
+          "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/victim-exhaustion-qsv-20260801/adonis-qsv-evolution-column-10.pdf",
+          "sha256": "cffd5a06bd47162c83c608e037cf24d32b00a04bd1e3b708c8438b9a2452eadf",
+          "text_url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/victim-exhaustion-qsv-20260801/adonis-qsv-evolution-column-10.txt",
+          "description": "QSV-01~08: 상호운용 가능한 시민 검증 계층과 인간 창립자·공익 설계자의 소진 방지·기여 보호를 제시한 칼럼."
+        }
+      ]
+    },
+    {
       "date_scope": "2026-08-10/11",
       "purpose": "AI 역할 분담·준수 선언·VOS 적용 보고·위험별 검증 자원 배분",
       "url": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/research/early-ai-receipts-20260810/",
@@ -375,8 +421,8 @@
       ]
     }
   ],
-  "source_file_count": 36,
-  "count_meaning": "ARCHIVED_FILE_VARIANTS_NOT_INDEPENDENT_STUDIES_OR_WITNESSES",
+  "source_file_count": 39,
+  "count_meaning": "38_ARCHIVED_ATTACHMENT_FILE_VARIANTS_PLUS_1_USER_TEXT_TRANSCRIPTION_NOT_INDEPENDENT_STUDIES_OR_WITNESSES",
   "later_connections": [
     {
       "title": "9월4일 공동창립자 선언·연구 지속·미래 과제",
@@ -421,7 +467,11 @@
     "0.2 승인과 시민주권 0.1 최종 승인 대기를 혼동하지 않는다.",
     "사변적 원점은 역사적 연구 층으로 보존하며 과학적 확정이나 실제 집행과 구분한다.",
     "VOS·권한·역할·증거상태의 버전별 용어를 자동 병합하지 않는다.",
-    "미해결 질문·유족의 검증권·적법한 소송과 고발장 작성 지원을 보존한다."
+    "미해결 질문·유족의 검증권·적법한 소송과 고발장 작성 지원을 보존한다.",
+    "7월29일 개정안과 R1 공개문의 날짜는 구분한다. R1 별도 발행일은 미기재다.",
+    "문서 안 라이선스 선택안은 기존 전체 자료의 자동 재라이선싱이 아니다.",
+    "SR-LAW-01~18과 SDQI는 설계 원문 기준이며 실제 법원 적용·배포 산식과 구분한다.",
+    "QSV=Qualified System Verification은 8월1일 칼럼에 명시된 출처별 정의다."
   ],
   "review_limits": [
     "SOURCE_FILES_READ_AND_ARCHIVED_IN_PREVIOUS_TURNS",
@@ -430,5 +480,6 @@
     "NOT_FULL_VISUAL_OR_EXTERNAL_REFERENCE_AUDIT"
   ],
   "publication_scope": "GITHUB_SUMMARY_AND_LINKS_ONLY_ORIGINAL_FILES_ON_WEBSITE",
-  "external_case_action": "NOT_PERFORMED"
+  "external_case_action": "NOT_PERFORMED",
+  "update_note": "7월29일 개정안·R1 원문 전사본과 8월1일 법·사법 프로토콜·QSV 발전 칼럼을 추가. 기존 원본과 승인 상태는 유지."
 }
