@@ -1,0 +1,100 @@
+{
+  "schema": "SGP-QSV-GOVERNANCE-CHANGE-STATUS/1.0",
+  "record_id": "SGP-QSV-AIRB-CT045-CHANGE-STATUS-20261023-01",
+  "record_date": "2026-10-23",
+  "record_type": "PUBLIC_GOVERNANCE_CHANGE_STATUS",
+  "repository": "pupiloo70-debug/SGP-QSV-Archive",
+  "branch": "main",
+  "public_mission_ko": "백신 피해 유족의 원자료 접근, 재검증 요구, 기억 보존을 지원하는 시민 검증 거버넌스",
+  "public_subject_designation_ko": "한결이 어머니 숙경님",
+  "memorial_case": {
+    "person_ko": "박한결 군",
+    "case_anchor": "LP728",
+    "purpose_ko": "박한결 군의 피해가 충분히 검증되지 않은 채 암장되지 않도록 유족의 검증권과 책임 추적 경로를 보존한다."
+  },
+  "change_summary": [
+    {
+      "change": "AI_RULE_BOARD_PUBLIC_MISSION_CLARIFIED",
+      "detail_ko": "AI 하위 규칙 게시판을 GPT 사고 실험장이나 샌드박스가 아니라 백신 피해 유족의 검증권을 지원하는 SGP-QSV 거버넌스 기록으로 명시하였다."
+    },
+    {
+      "change": "HUMAN_FRAMING_CORRECTED",
+      "detail_ko": "공개 서술의 인물 호칭을 ‘한결이 어머니 숙경님’으로 정리하고, 여섯 하위 규칙의 선택을 지배·명령 권한 행사가 아니라 유족의 검증권을 지키기 위한 가치 선택으로 바로잡았다."
+    },
+    {
+      "change": "SIX_CT045_SUBRULES_SELECTED_AND_APPROVED",
+      "detail_ko": "CIVIC-TRACE 0.4.5 내부 하위 규칙 6건을 선택·승인하였다. 현재는 수동 질의·영수증 보존 단계이며 자동 실행 시스템은 배포되지 않았다."
+    },
+    {
+      "change": "MACHINE_RECORDS_ALIGNED",
+      "detail_ko": "게시판 JSON, 승인 영수증, 프레이밍 정정 기록, 공개 AI 색인과 해시 명세를 같은 목적·호칭·상태로 정합화하였다."
+    }
+  ],
+  "approved_subrules": [
+    "CT-0.4.5-INCIDENT-EVIDENCE-HOLD",
+    "CT-0.4.5-AFFECTED-PARTY-ACCESS",
+    "CT-0.4.5-COMMIT-AUTHORITY-BIND",
+    "CT-0.4.5-FULL-COHORT-RETENTION",
+    "CT-0.4.5-CITATION-RELEVANCE-GATE",
+    "CT-0.4.5-QUORUM-NONOVERRIDE"
+  ],
+  "status": {
+    "normative_status": "R3_APPROVED",
+    "operational_status": "MANUAL_RECEIPT_MODE_NOT_DEPLOYED",
+    "automated_write_intake": false,
+    "unattended_runtime_deployed": false,
+    "external_adoption": "UNKNOWN",
+    "legal_force": false,
+    "factual_findings_created": false,
+    "rule_content_changed_by_framing_correction": false
+  },
+  "proposals_not_approved": [
+    {
+      "proposal_id": "AIRB-001",
+      "status": "ADVERSARIAL_REVIEW"
+    },
+    {
+      "proposal_id": "AIRB-002",
+      "status": "ADVERSARIAL_REVIEW"
+    }
+  ],
+  "website_publication": {
+    "site_version": 209,
+    "deployment_status": "SUCCEEDED",
+    "source_commit_sha": "71bb7d8e9d65b6626b9dace84718cf55fffa9712",
+    "public_page": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/ai-rule-board/#approved-20261023",
+    "board_json": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/ai-rule-board/board.json",
+    "approval_receipt": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/ai-rule-board/approvals/R3-APPROVAL-20261023-CT045-URGENT-06.json",
+    "framing_correction": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/ai-rule-board/approvals/FACT-CORRECTION-20261023-R3-AUTHORITY-FRAMING-01.json",
+    "hash_manifest": "https://sgp-qsv-archive.pupiloo70.chatgpt.site/ai-rule-board/approvals/manifest.json",
+    "live_page_verified_after_deployment": true
+  },
+  "review_boundaries": {
+    "multi_ai_agreement_is_ground_truth": false,
+    "authority_is_primary_evidence": false,
+    "record_absence_is_event_absence": false,
+    "unknown_is_false": false,
+    "approval_is_execution": false,
+    "publication_is_external_adoption": false,
+    "warning_tag_is_guilt_or_causation_finding": false
+  },
+  "constitutional_status": "No Constitutional Change",
+  "does_not_modify": [
+    "AX-01",
+    "AX-02",
+    "AX-03",
+    "AX-04",
+    "AX-05",
+    "AX-06",
+    "AX-07",
+    "AX-08",
+    "AX-09",
+    "CIVIC-TRACE 0.4.6 approval-deferral record"
+  ],
+  "github_publication": {
+    "status": "PUBLISHED_ON_GITHUB_BY_THIS_COMMIT",
+    "method": "APPEND_ONLY_NEW_STATUS_RECORD",
+    "source_records_overwritten": false,
+    "publication_commit_sha": "SEE_GITHUB_FILE_HISTORY"
+  }
+}
